@@ -1,0 +1,2 @@
+module	n_entries	n_proteins_or_peptides	n_with_condition	n_with_metric	representative_entries	allowed_claim	prohibited_claim
+NET_citrullinated_material	87	46	87	87	AZU1; CATG; ELNE; ACTA; ACTB; ACTC; ACTG; ACTH; ACTS; ARC1B	structured citrullinated NET/release material composition (Tier 2)	citrullination rate / PAD4 activity / NETosis rate / NET clearance / pathogenicity / causal metabolism-to-citrullination / sample-level fusion

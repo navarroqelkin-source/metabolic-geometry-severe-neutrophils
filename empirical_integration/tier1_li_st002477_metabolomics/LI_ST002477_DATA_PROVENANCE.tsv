@@ -1,0 +1,5 @@
+source_id	repository	accession	data_object	url_or_endpoint	local_path	file_size_bytes	sha256	retrieved_live	parse_status	evidence_tier	notes
+Li_ST002477	Metabolomics_Workbench	ST002477	summary	https://www.metabolomicsworkbench.org/rest/study/study_id/ST002477/summary	(in-memory)	516	32c1a3e45c2244353d2ff3b072ca3e6604fa5a06dc555620cd1f7f84ac65fce3	YES	OK	1	
+Li_ST002477	Metabolomics_Workbench	ST002477	factors	https://www.metabolomicsworkbench.org/rest/study/study_id/ST002477/factors	(in-memory)	15757	5e263137a3383a239343eb70ba537a40557bce60facf886d63c50bd23dea6f35	YES	OK	1	
+Li_ST002477	Metabolomics_Workbench	ST002477	metabolites	https://www.metabolomicsworkbench.org/rest/study/study_id/ST002477/metabolites	(in-memory)	47532	cf7a1f09ecebb124e910202d725f79e18162d7b66a6661e30a4f967c44fc38f8	YES	OK	1	
+Li_ST002477	Metabolomics_Workbench	ST002477	data	https://www.metabolomicsworkbench.org/rest/study/study_id/ST002477/data	(in-memory; matrix saved to outputs/)	554921	f530bd5a9440d3fea48743f13f57e82cd4082c39a95683eb477d83630f4f519c	YES	OK	1	

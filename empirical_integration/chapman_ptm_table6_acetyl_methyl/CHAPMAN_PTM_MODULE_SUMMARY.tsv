@@ -1,0 +1,3 @@
+module	ptm_type	n_entries	n_proteins	representative_proteins	allowed_claim	prohibited_claim
+NET_acetylated_material	Acetylation	60	49	H31; H31T; H32; 1433Z; ACTB; ACTG; ANXA1; ANXA3; ARC1B; ARPC4	structured NET/release material module representation (PTM)	enzyme activity (HAT/HDAC/PRMT), modification rate, NETosis rate, clearance, pathogenicity, causal mechanism
+NET_methylated_material	Methylation	16	12	H31; H31T; H32; H33; PERM; ACTA; ACTG; CERU; HSP7C; SPTN1	structured NET/release material module representation (PTM)	enzyme activity (HAT/HDAC/PRMT), modification rate, NETosis rate, clearance, pathogenicity, causal mechanism

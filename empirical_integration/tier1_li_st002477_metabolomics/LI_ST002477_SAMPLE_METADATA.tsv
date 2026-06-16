@@ -1,0 +1,90 @@
+sample_id	group_or_condition	sample_type	include_in_biological_analysis	reason
+Blank_01	Blank	_BLANK_	NO	Blank = process blank, exclude from biology
+Blank_02	Blank	_BLANK_	NO	Blank = process blank, exclude from biology
+Blank_03	Blank	_BLANK_	NO	Blank = process blank, exclude from biology
+PMN_74	Control	Neutrophils	YES	biological comparison set
+PMN_75	Control	Neutrophils	YES	biological comparison set
+PMN_76	Control	Neutrophils	YES	biological comparison set
+PMN_77	Control	Neutrophils	YES	biological comparison set
+PMN_78	Control	Neutrophils	YES	biological comparison set
+PMN_79	Control	Neutrophils	YES	biological comparison set
+PMN_80	Control	Neutrophils	YES	biological comparison set
+PMN_81	Control	Neutrophils	YES	biological comparison set
+PMN_82	Control	Neutrophils	YES	biological comparison set
+PMN_83	Control	Neutrophils	YES	biological comparison set
+PMN_84	Control	Neutrophils	YES	biological comparison set
+PMN_85	Control	Neutrophils	YES	biological comparison set
+PMN_86	Control	Neutrophils	YES	biological comparison set
+PMN_87	Control	Neutrophils	YES	biological comparison set
+PMN_88	Control	Neutrophils	YES	biological comparison set
+PMN_89	Control	Neutrophils	YES	biological comparison set
+PMN_90	Control	Neutrophils	YES	biological comparison set
+PMN_91	Control	Neutrophils	YES	biological comparison set
+PMN_92	Control	Neutrophils	YES	biological comparison set
+PMN_02	Mild	Neutrophils	YES	biological comparison set
+PMN_03	Mild	Neutrophils	YES	biological comparison set
+PMN_04	Mild	Neutrophils	YES	biological comparison set
+PMN_05	Mild	Neutrophils	YES	biological comparison set
+PMN_06	Mild	Neutrophils	YES	biological comparison set
+PMN_07	Mild	Neutrophils	YES	biological comparison set
+PMN_08	Mild	Neutrophils	YES	biological comparison set
+PMN_10	Mild	Neutrophils	YES	biological comparison set
+PMN_12	Mild	Neutrophils	YES	biological comparison set
+PMN_13	Mild	Neutrophils	YES	biological comparison set
+PMN_14	Mild	Neutrophils	YES	biological comparison set
+PMN_15	Mild	Neutrophils	YES	biological comparison set
+PMN_16	Mild	Neutrophils	YES	biological comparison set
+PMN_19	Mild	Neutrophils	YES	biological comparison set
+PMN_21	Mild	Neutrophils	YES	biological comparison set
+PMN_22	Mild	Neutrophils	YES	biological comparison set
+PMN_25	Mild	Neutrophils	YES	biological comparison set
+PMN_27	Mild	Neutrophils	YES	biological comparison set
+PMN_28	Mild	Neutrophils	YES	biological comparison set
+PMN_29	Mild	Neutrophils	YES	biological comparison set
+PMN_32	Mild	Neutrophils	YES	biological comparison set
+PMN_34	Mild	Neutrophils	YES	biological comparison set
+PMN_35	Mild	Neutrophils	YES	biological comparison set
+PMN_36	Mild	Neutrophils	YES	biological comparison set
+PMN_38	Mild	Neutrophils	YES	biological comparison set
+PMN_40	Mild	Neutrophils	YES	biological comparison set
+PMN_41	Mild	Neutrophils	YES	biological comparison set
+PMN_42	Mild	Neutrophils	YES	biological comparison set
+PMN_43	Mild	Neutrophils	YES	biological comparison set
+PMN_46	Mild	Neutrophils	YES	biological comparison set
+QC_pool_01	QC	_QC_	NO	QC = pooled QC, QC-only use
+QC_pool_02	QC	_QC_	NO	QC = pooled QC, QC-only use
+QC_pool_03	QC	_QC_	NO	QC = pooled QC, QC-only use
+QC_pool_04	QC	_QC_	NO	QC = pooled QC, QC-only use
+QC_pool_05	QC	_QC_	NO	QC = pooled QC, QC-only use
+QC_pool_06	QC	_QC_	NO	QC = pooled QC, QC-only use
+QC_pool_07	QC	_QC_	NO	QC = pooled QC, QC-only use
+QC_pool_08	QC	_QC_	NO	QC = pooled QC, QC-only use
+QC_pool_09	QC	_QC_	NO	QC = pooled QC, QC-only use
+QC_pool_10	QC	_QC_	NO	QC = pooled QC, QC-only use
+QC_pool_11	QC	_QC_	NO	QC = pooled QC, QC-only use
+PMN_48	Severe	Neutrophils	YES	biological comparison set
+PMN_49	Severe	Neutrophils	YES	biological comparison set
+PMN_50	Severe	Neutrophils	YES	biological comparison set
+PMN_51	Severe	Neutrophils	YES	biological comparison set
+PMN_52	Severe	Neutrophils	YES	biological comparison set
+PMN_53	Severe	Neutrophils	YES	biological comparison set
+PMN_54	Severe	Neutrophils	YES	biological comparison set
+PMN_55	Severe	Neutrophils	YES	biological comparison set
+PMN_56	Severe	Neutrophils	YES	biological comparison set
+PMN_57	Severe	Neutrophils	YES	biological comparison set
+PMN_58	Severe	Neutrophils	YES	biological comparison set
+PMN_59	Severe	Neutrophils	YES	biological comparison set
+PMN_60	Severe	Neutrophils	YES	biological comparison set
+PMN_61	Severe	Neutrophils	YES	biological comparison set
+PMN_62	Severe	Neutrophils	YES	biological comparison set
+PMN_63	Severe	Neutrophils	YES	biological comparison set
+PMN_64	Severe	Neutrophils	YES	biological comparison set
+PMN_65	Severe	Neutrophils	YES	biological comparison set
+PMN_66	Severe	Neutrophils	YES	biological comparison set
+PMN_67	Severe	Neutrophils	YES	biological comparison set
+PMN_68	Severe	Neutrophils	YES	biological comparison set
+PMN_69	Severe	Neutrophils	YES	biological comparison set
+PMN_70	Severe	Neutrophils	YES	biological comparison set
+PMN_71	Severe	Neutrophils	YES	biological comparison set
+PMN_72	Severe	Neutrophils	YES	biological comparison set
+PMN_73	Severe	Neutrophils	YES	biological comparison set

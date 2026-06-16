@@ -1,0 +1,13 @@
+gate	status	detail
+state_correction	DONE	ROUTE_B_RECOMMENDED marked SUPERSEDED; CURRENT_STATUS=EVIDENCE_TIERED_PANOMIC_INTEGRATION_ACTIVE
+provenance_registered	DONE	MW REST endpoints (summary/factors/metabolites/data) logged with sizes + sha256
+sample_metadata	DONE	89 samples; Control/Mild/Severe biological; Blank/QC excluded
+metabolite_table	DONE	287 named metabolites; identifiers where reported; no invented chemistry
+intensity_matrix	DONE	real matrix 287 metabolites x 75 biological samples (MS-reading units)
+qc_minimal	DONE	see LI_ST002477_QC_REPORT.md
+descriptive_summary	DONE	median/mean by severity; relative pattern; descriptive only
+module_mapping	DONE	M05 (glycolysis/PPP) + general metabolic-state pool; tiered support only
+claim_ceiling_validation	DONE	see outputs/LI_ST002477_TIER1_VALIDATION_REPORT.md
+integration_mode	MODE_A_DIRECT_MATRIX_INTEGRATION_FOR_METABOLIC_STATE_ONLY	real matrix retrieved; metabolic state only, not flux
+evidence_tier	1	Li_ST002477 metabolomics quantitative layer
+server_used	NO	matrix is 554 KB; local environment sufficient

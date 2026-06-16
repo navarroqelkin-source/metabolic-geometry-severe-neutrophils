@@ -1,0 +1,4 @@
+comparison	n_group_1	n_group_2	energy_statistic	permutation_p_value	n_permutations	robustness_note	allowed_claim	prohibited_claim
+Control_vs_Mild	19	30	5.71686	0.001	1000	ok	distributional metabolic state separation between groups (permutation-tested)	flux / causal mechanism / clinical biomarker / severity prediction / executed function / sample-level fusion
+Control_vs_Severe	19	26	7.393626	0.001	1000	ok	distributional metabolic state separation between groups (permutation-tested)	flux / causal mechanism / clinical biomarker / severity prediction / executed function / sample-level fusion
+Mild_vs_Severe	30	26	3.359703	0.001	1000	ok	distributional metabolic state separation between groups (permutation-tested)	flux / causal mechanism / clinical biomarker / severity prediction / executed function / sample-level fusion

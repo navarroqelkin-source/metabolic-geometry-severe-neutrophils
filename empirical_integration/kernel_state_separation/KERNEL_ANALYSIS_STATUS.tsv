@@ -1,0 +1,5 @@
+step	status	detail
+prepare	OK	75 samples x 287 metabolites; log1p + robust_scale(median/IQR)
+mmd	OK	12 (comparison x bandwidth) tests
+energy_distance	OK	3 comparisons
+sensitivity_validation	KERNEL_STATE_SEPARATION_SUPPORTED	supported=3/3; ordering_ok=True

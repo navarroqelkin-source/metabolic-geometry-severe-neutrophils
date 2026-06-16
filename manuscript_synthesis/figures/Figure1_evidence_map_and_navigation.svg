@@ -1,0 +1,129 @@
+<svg viewBox="0 0 1040 848" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" role="img" aria-labelledby="t d">
+  <title id="t">Evidence map and manuscript navigation</title>
+  <desc id="d">A navigation map, not a new result. Figure 2 is shown at the top as the observation framework to read first — not as a data layer: NET burden is a stock-like observable whose formation and removal are not identifiable from a single scalar measurement, and measurement breakers define what future data must collect to make a mechanism identifiable. The map then summarizes how the independent public data layers are used: rapid phosphosignaling (PXD029046, article-level), the measured human neutrophil metabolic state (Li_ST002477, Figures 3-4), released NET material and PTM composition (Chapman_PXD011796, Figure 5), a primarily mouse-derived reference cell-state architecture with reported human conservation (NeuMap, Figure 6), and the conceptual four-layer synthesis (Figure 7). Only the metabolic layer is a measured result. No sample-level fusion, no causal coupling, no biomarker validity, no therapeutic targetability.</desc>
+
+  <rect x="0" y="0" width="1040" height="848" fill="#ffffff"/>
+
+  <!-- Header -->
+  <text x="40" y="32" font-size="20" font-weight="700" fill="#1f2937">Evidence map and manuscript navigation</text>
+  <text x="40" y="54" font-size="12.5" fill="#6b7280">A reading map of the manuscript — what each layer is, what it supports, and what it cannot prove. Not a new result.</text>
+
+  <!-- Observation framework (Figure 2) — the reading rule that governs the layers, NOT a data layer -->
+  <rect x="40" y="64" width="960" height="58" rx="8" fill="#0f172a" stroke="#0f172a"/>
+  <rect x="40" y="64" width="7" height="58" rx="3.5" fill="#f59e0b"/>
+  <text x="62" y="85" font-size="11.5" font-weight="700" fill="#fbbf24">OBSERVATION FRAMEWORK · Figure 2 — read this first (a reading rule, not a data layer)</text>
+  <text x="62" y="103" font-size="11.5" fill="#e2e8f0">NET burden is a stock-like observable: a single scalar burden does not identify formation vs removal (stock ≠ flow).</text>
+  <text x="62" y="118" font-size="11.5" fill="#e2e8f0">Measurement breakers define the data future studies must collect to make a mechanism identifiable.</text>
+  <rect x="966" y="78" width="42" height="22" rx="11" fill="#1e293b" stroke="#f59e0b"/>
+  <text x="987" y="93" text-anchor="middle" font-size="10.5" font-weight="700" fill="#fbbf24">F2</text>
+
+  <!-- data layers and synthesis (shifted down to sit below the observation-framework band) -->
+  <g transform="translate(0,66)">
+  <rect x="40" y="66" width="960" height="30" rx="6" fill="#f5f3ff" stroke="#ddd6fe"/>
+  <text x="520" y="86" text-anchor="middle" font-size="12.5" font-weight="700" fill="#5b21b6">Independent public layers · honest synthesis · no sample-level fusion</text>
+
+  <!-- Column headers -->
+  <g font-size="10.5" font-weight="700" fill="#64748b">
+    <text x="44" y="120">LAYER · DATASET · EVIDENCE TYPE</text>
+    <text x="372" y="120">SUPPORTS (can say)</text>
+    <text x="660" y="120">CANNOT PROVE</text>
+    <text x="978" y="120">SEE</text>
+  </g>
+  <line x1="40" y1="126" x2="1000" y2="126" stroke="#e5e7eb" stroke-width="1"/>
+
+  <!-- ===== Row 1: Rapid signaling ===== -->
+  <g>
+    <rect x="40" y="134" width="960" height="92" rx="8" fill="#fbfbfd" stroke="#eef0f3"/>
+    <rect x="40" y="134" width="6" height="92" rx="3" fill="#cbd5e1"/>
+    <text x="60" y="158" font-size="13" font-weight="700" fill="#334155">Rapid signaling</text>
+    <text x="60" y="178" font-size="11" fill="#64748b">PXD029046 · human</text>
+    <text x="60" y="196" font-size="11" fill="#64748b">article-level evidence</text>
+    <text x="60" y="214" font-size="10.5" fill="#64748b">seconds–minutes</text>
+    <text x="372" y="170" font-size="11.5" fill="#475569">rapid signaling context (published)</text>
+    <text x="660" y="164" font-size="11" font-style="italic" fill="#64748b">reusable phosphosite table</text>
+    <text x="660" y="182" font-size="11" font-style="italic" fill="#64748b">downstream function</text>
+    <rect x="966" y="166" width="42" height="22" rx="11" fill="#eef2f7" stroke="#cbd5e1"/>
+    <text x="987" y="181" text-anchor="middle" font-size="10.5" fill="#64748b">F7</text>
+  </g>
+
+  <!-- ===== Row 2: Metabolic state (MEASURED) ===== -->
+  <g>
+    <rect x="40" y="234" width="960" height="92" rx="8" fill="#ecfdf5" stroke="#6ee7b7"/>
+    <rect x="40" y="234" width="6" height="92" rx="3" fill="#10b981"/>
+    <rect x="60" y="246" width="104" height="18" rx="9" fill="#10b981"/>
+    <text x="112" y="259" text-anchor="middle" font-size="9.5" font-weight="700" fill="#ffffff">MEASURED RESULT</text>
+    <text x="60" y="284" font-size="13" font-weight="700" fill="#065f46">Metabolic state</text>
+    <text x="60" y="302" font-size="11" fill="#047857">Li_ST002477 · human neutrophil metabolomics</text>
+    <text x="60" y="319" font-size="10.5" fill="#059669">COVID-19 severity · minutes–hours</text>
+    <text x="372" y="276" font-size="11.5" fill="#065f46">measured metabolic-state separation</text>
+    <text x="372" y="294" font-size="11.5" fill="#065f46">(Control/Mild/Severe; p≈0.001)</text>
+    <text x="660" y="270" font-size="11" font-style="italic" fill="#10b981">metabolic flux</text>
+    <text x="660" y="288" font-size="11" font-style="italic" fill="#10b981">causality</text>
+    <text x="660" y="306" font-size="11" font-style="italic" fill="#10b981">biomarker validation</text>
+    <rect x="960" y="266" width="54" height="22" rx="11" fill="#d1fae5" stroke="#6ee7b7"/>
+    <text x="987" y="281" text-anchor="middle" font-size="10.5" font-weight="700" fill="#065f46">F3–4</text>
+  </g>
+
+  <!-- ===== Row 3: Released material + PTM ===== -->
+  <g>
+    <rect x="40" y="334" width="960" height="92" rx="8" fill="#fbfbfd" stroke="#eef0f3"/>
+    <rect x="40" y="334" width="6" height="92" rx="3" fill="#cbd5e1"/>
+    <text x="60" y="358" font-size="13" font-weight="700" fill="#334155">Released material + PTM</text>
+    <text x="60" y="378" font-size="11" fill="#64748b">Chapman_PXD011796 · human RA/SLE</text>
+    <text x="60" y="396" font-size="11" fill="#64748b">NET/release composition + PTM entries</text>
+    <text x="60" y="414" font-size="10.5" fill="#64748b">effector output</text>
+    <text x="372" y="364" font-size="11.5" fill="#475569">structured released material;</text>
+    <text x="372" y="382" font-size="11.5" fill="#475569">752 proteins · histone H3 across PTM entries</text>
+    <text x="660" y="364" font-size="11" font-style="italic" fill="#64748b">NETosis rate</text>
+    <text x="660" y="382" font-size="11" font-style="italic" fill="#64748b">enzyme activity</text>
+    <text x="660" y="400" font-size="11" font-style="italic" fill="#64748b">pathogenicity</text>
+    <rect x="966" y="366" width="42" height="22" rx="11" fill="#eef2f7" stroke="#cbd5e1"/>
+    <text x="987" y="381" text-anchor="middle" font-size="10.5" fill="#64748b">F5</text>
+  </g>
+
+  <!-- ===== Row 4: Cell-state architecture ===== -->
+  <g>
+    <rect x="40" y="434" width="960" height="92" rx="8" fill="#fafaff" stroke="#e9e9f6"/>
+    <rect x="40" y="434" width="6" height="92" rx="3" fill="#c7d2fe"/>
+    <text x="60" y="458" font-size="13" font-weight="700" fill="#334155">Cell-state architecture</text>
+    <text x="60" y="478" font-size="11" fill="#64748b">NeuMap · primarily mouse-derived</text>
+    <text x="60" y="496" font-size="11" fill="#64748b">reported human conservation</text>
+    <text x="60" y="514" font-size="10.5" fill="#64748b">3039 markers · 7 hubs</text>
+    <text x="372" y="474" font-size="11.5" fill="#475569">reference state architecture</text>
+    <text x="372" y="492" font-size="11.5" fill="#475569">(interpretive scaffold)</text>
+    <text x="660" y="464" font-size="11" font-style="italic" fill="#64748b">co-measured human layer</text>
+    <text x="660" y="482" font-size="11" font-style="italic" fill="#64748b">functional validation</text>
+    <text x="660" y="500" font-size="11" font-style="italic" fill="#64748b">cross-layer coupling</text>
+    <rect x="966" y="466" width="42" height="22" rx="11" fill="#eef2ff" stroke="#c7d2fe"/>
+    <text x="987" y="481" text-anchor="middle" font-size="10.5" fill="#4338ca">F6</text>
+  </g>
+
+  <!-- ===== Row 5: Conceptual synthesis ===== -->
+  <g>
+    <rect x="40" y="534" width="960" height="92" rx="8" fill="#fbfbfd" stroke="#eef0f3"/>
+    <rect x="40" y="534" width="6" height="92" rx="3" fill="#c084b8"/>
+    <text x="60" y="558" font-size="13" font-weight="700" fill="#334155">Four-layer model</text>
+    <text x="60" y="578" font-size="11" fill="#64748b">conceptual synthesis</text>
+    <text x="60" y="596" font-size="11" fill="#64748b">hypothesis-generating</text>
+    <text x="372" y="570" font-size="11.5" fill="#475569">why paired temporal perturbational</text>
+    <text x="372" y="588" font-size="11.5" fill="#475569">data are needed</text>
+    <text x="660" y="570" font-size="11" font-style="italic" fill="#64748b">cross-layer coupling proven</text>
+    <text x="660" y="588" font-size="11" font-style="italic" fill="#64748b">causal mechanism</text>
+    <rect x="966" y="566" width="42" height="22" rx="11" fill="#f7eef6" stroke="#e2c8de"/>
+    <text x="987" y="581" text-anchor="middle" font-size="10.5" fill="#a855a0">F7</text>
+  </g>
+
+  <!-- Footer -->
+  <line x1="40" y1="644" x2="1000" y2="644" stroke="#e5e7eb" stroke-width="1"/>
+
+  <!-- Evidence-level legend (mirrors the Methods definition) -->
+  <rect x="40" y="652" width="960" height="62" rx="8" fill="#fafafa" stroke="#eef0f3"/>
+  <text x="56" y="676" font-size="11" font-weight="700" fill="#475569">Evidence strength:</text>
+  <text x="172" y="676" font-size="11" fill="#475569">measured quantitative result  ›  structured compositional evidence  ›  reference architecture  ›  article-level evidence</text>
+  <text x="56" y="700" font-size="11" font-weight="700" fill="#475569">Claim ceiling:</text>
+  <text x="172" y="700" font-size="11" fill="#475569">each source supports only the inference allowed by its evidence type</text>
+
+  <text x="40" y="738" font-size="11.5" fill="#4b5563"><tspan font-weight="700">Measured result: metabolic layer only.</tspan> Other layers: compositional, reference or article-level evidence.</text>
+  <text x="40" y="758" font-size="10.5" fill="#94a3b8">Figure 1 · navigation map, not a new result · no sample-level fusion, no causal coupling, no biomarker validity, no therapeutic targetability.</text>
+  </g>
+</svg>

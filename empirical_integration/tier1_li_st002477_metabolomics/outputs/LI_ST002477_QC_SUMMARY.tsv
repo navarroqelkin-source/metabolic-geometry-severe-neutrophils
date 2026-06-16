@@ -1,0 +1,14 @@
+metric	value
+status	OK
+n_metabolites	287
+n_samples_in_matrix	75
+n_samples_in_metadata	89
+n_biological_samples_in_matrix	75
+n_nonbiological_samples_in_matrix	0
+blank_samples_in_metadata	3
+qc_samples_in_metadata	11
+group_counts_in_matrix	Control:19; Mild:30; Severe:26
+total_data_cells	21525
+missing_value_cells	0
+missing_fraction	0.0
+nonnumeric_cells	0

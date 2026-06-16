@@ -1,0 +1,84 @@
+<svg viewBox="0 0 1000 620" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" role="img" aria-labelledby="t d">
+  <title id="t">NeuMap reference architecture for neutrophil state interpretation</title>
+  <desc id="d">NeuMap as a primarily mouse-derived neutrophil state architecture (3039 marker genes, 7 hubs) with reported human conservation. Used in this manuscript as a reference framework for interpreting neutrophil state organization — not as a co-measured human layer, not functional validation, not proof of cross-layer coupling, and not a clinical biomarker model.</desc>
+
+  <rect x="0" y="0" width="1000" height="620" fill="#ffffff"/>
+
+  <!-- Title -->
+  <text x="500" y="32" text-anchor="middle" font-size="20" font-weight="700" fill="#1f2937">NeuMap reference architecture for neutrophil state interpretation</text>
+  <text x="500" y="53" text-anchor="middle" font-size="12.5" fill="#6b7280">A reference state architecture — not a co-measured human layer, not functional validation</text>
+
+  <!-- ===== Panel a: reference state architecture ===== -->
+  <g>
+    <text x="60" y="86" font-size="13.5" font-weight="700" fill="#334155">a · NeuMap as reference state architecture</text>
+    <rect x="60" y="98" width="420" height="222" rx="8" fill="#fafaff" stroke="#e5e7eb"/>
+    <g>
+      <rect x="84" y="120" width="170" height="58" rx="8" fill="#eef2ff" stroke="#c7d2fe"/>
+      <text x="169" y="146" text-anchor="middle" font-size="19" font-weight="700" fill="#4338ca">3039</text>
+      <text x="169" y="166" text-anchor="middle" font-size="10.5" fill="#6366f1">marker genes</text>
+      <rect x="286" y="120" width="170" height="58" rx="8" fill="#eef2ff" stroke="#c7d2fe"/>
+      <text x="371" y="146" text-anchor="middle" font-size="19" font-weight="700" fill="#4338ca">7</text>
+      <text x="371" y="166" text-anchor="middle" font-size="10.5" fill="#6366f1">hubs (state programs)</text>
+    </g>
+    <text x="84" y="208" font-size="11.5" fill="#475569">· primarily mouse-derived neutrophil state architecture</text>
+    <text x="84" y="228" font-size="11.5" fill="#475569">· reported human conservation</text>
+    <rect x="84" y="248" width="372" height="48" rx="6" fill="#f5f3ff" stroke="#ddd6fe"/>
+    <text x="270" y="268" text-anchor="middle" font-size="11.5" font-weight="700" fill="#5b21b6">reference architecture,</text>
+    <text x="270" y="285" text-anchor="middle" font-size="11.5" font-weight="700" fill="#5b21b6">not a co-measured human layer</text>
+  </g>
+
+  <!-- ===== Panel b: state-architecture logic (7 hubs, no invented names) ===== -->
+  <g>
+    <text x="520" y="86" font-size="13.5" font-weight="700" fill="#334155">b · State-architecture logic (7 hubs)</text>
+    <rect x="520" y="98" width="420" height="222" rx="8" fill="#fafaff" stroke="#e5e7eb"/>
+    <!-- conceptual hub graph: 7 nodes -->
+    <g stroke="#c7d2fe" stroke-width="1.4">
+      <line x1="730" y1="150" x2="640" y2="200"/><line x1="730" y1="150" x2="820" y2="200"/>
+      <line x1="640" y1="200" x2="700" y2="250"/><line x1="820" y1="200" x2="760" y2="250"/>
+      <line x1="700" y1="250" x2="760" y2="250"/><line x1="640" y1="200" x2="820" y2="200"/>
+      <line x1="600" y1="160" x2="640" y2="200"/><line x1="860" y1="160" x2="820" y2="200"/>
+    </g>
+    <g fill="#6366f1">
+      <circle cx="730" cy="150" r="13"/><circle cx="640" cy="200" r="13"/><circle cx="820" cy="200" r="13"/>
+      <circle cx="700" cy="250" r="13"/><circle cx="760" cy="250" r="13"/><circle cx="600" cy="160" r="13"/>
+      <circle cx="860" cy="160" r="13"/>
+    </g>
+    <text x="730" y="288" text-anchor="middle" font-size="10.5" fill="#6b7280">7 conserved state programs (e.g. maturation, IFN-response,</text>
+    <text x="730" y="304" text-anchor="middle" font-size="10.5" fill="#6b7280">immunosuppressive, antigen-presentation)</text>
+    <text x="730" y="132" text-anchor="middle" font-size="10.5" font-weight="700" fill="#5b21b6">state organization, not direct functional validation</text>
+  </g>
+
+  <!-- ===== Panel c: how NeuMap is used here ===== -->
+  <g>
+    <text x="60" y="358" font-size="13.5" font-weight="700" fill="#334155">c · How NeuMap is used in this manuscript</text>
+    <rect x="60" y="370" width="420" height="180" rx="8" fill="#fafaff" stroke="#e5e7eb"/>
+    <g font-size="11.5" fill="#475569">
+      <text x="84" y="400">· a reference frame for neutrophil state</text>
+      <text x="84" y="424">· a state vocabulary for interpretation</text>
+      <text x="84" y="448">· an architecture for reading the other layers</text>
+      <text x="84" y="472">· a bridge to future paired human-neutrophil studies</text>
+    </g>
+    <rect x="84" y="492" width="372" height="40" rx="6" fill="#f5f3ff" stroke="#ddd6fe"/>
+    <text x="270" y="517" text-anchor="middle" font-size="11.5" font-weight="700" fill="#5b21b6">interpretive scaffold, not integrated co-measurement</text>
+  </g>
+
+  <!-- ===== Panel d: interpretive boundary ===== -->
+  <g>
+    <text x="520" y="358" font-size="13.5" font-weight="700" fill="#334155">d · Interpretive boundary</text>
+    <rect x="520" y="370" width="420" height="180" rx="8" fill="#fbfbfd" stroke="#e5e7eb"/>
+    <g font-size="11" fill="#475569">
+      <text x="544" y="398">✓ mouse-derived reference · reported human conservation</text>
+    </g>
+    <g font-size="11" fill="#64748b" font-style="italic">
+      <text x="544" y="426">not co-measured here</text>
+      <text x="544" y="448">not a causal mechanism</text>
+      <text x="544" y="470">not proof of cross-layer coupling</text>
+      <text x="544" y="492">not a clinical biomarker</text>
+      <text x="544" y="514">not executed function</text>
+    </g>
+  </g>
+
+  <!-- Footer -->
+  <line x1="60" y1="575" x2="940" y2="575" stroke="#e5e7eb" stroke-width="1"/>
+  <text x="500" y="596" text-anchor="middle" font-size="10.5" fill="#94a3b8">Figure 6 · reference architecture (mouse-derived, human-conserved) · not co-measured, not function, not causal, not biomarker</text>
+</svg>

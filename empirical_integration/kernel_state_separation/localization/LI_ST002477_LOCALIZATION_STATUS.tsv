@@ -1,0 +1,5 @@
+step	status	detail
+feature_contribution	OK	287 metabolites; fdr_sig=183; monotonic=116
+bootstrap_stability	OK	500 iters; stable=39
+module_summary	OK	2 modules
+validation	LOCALIZATION_VALIDATION_PASS	10/10 checks pass

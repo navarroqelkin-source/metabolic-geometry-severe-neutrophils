@@ -1,0 +1,288 @@
+metabolite_id	metabolite_name	identifier_type	chemical_class_or_pathway_if_available	source_field	evidence_status
+1,3/ 2,3-Bisphosphoglycerate	1,3/ 2,3-Bisphosphoglycerate	name_only		MW REST /metabolites	reported_named_metabolite
+1-Methylhistidine	1-Methylhistidine	name_only		MW REST /metabolites	reported_named_metabolite
+2-/3-Phosphoglycerate	2-/3-Phosphoglycerate	name_only		MW REST /metabolites	reported_named_metabolite
+2-Hydroxybutyrate	2-Hydroxybutyrate	name_only		MW REST /metabolites	reported_named_metabolite
+2-Hydroxyglutarate	2-Hydroxyglutarate	name_only		MW REST /metabolites	reported_named_metabolite
+2-Mannosyl-3-phosphoglycerate	2-Mannosyl-3-phosphoglycerate	name_only		MW REST /metabolites	reported_named_metabolite
+2-Methylmaleate	2-Methylmaleate	name_only		MW REST /metabolites	reported_named_metabolite
+3-Hydroxymethylglutarate	3-Hydroxymethylglutarate	name_only		MW REST /metabolites	reported_named_metabolite
+3-Hydroxypyruvate	3-Hydroxypyruvate	name_only		MW REST /metabolites	reported_named_metabolite
+3-Methyl-2-oxovalerate	3-Methyl-2-oxovalerate	name_only		MW REST /metabolites	reported_named_metabolite
+3-Methylhistidine	3-Methylhistidine	name_only		MW REST /metabolites	reported_named_metabolite
+4alpha-Hydroxyformyl-4beta-methyl-5alpha-cholest-8-en-3beta-ol	4alpha-Hydroxyformyl-4beta-methyl-5alpha-cholest-8-en-3beta-ol	name_only		MW REST /metabolites	reported_named_metabolite
+4-Guanidinobutanoate	4-Guanidinobutanoate	name_only		MW REST /metabolites	reported_named_metabolite
+4-Guanidinobutyric acid	4-Guanidinobutyric acid	name_only		MW REST /metabolites	reported_named_metabolite
+5-Aminolevulinate	5-Aminolevulinate	name_only		MW REST /metabolites	reported_named_metabolite
+5-Glutamyltaurine	5-Glutamyltaurine	name_only		MW REST /metabolites	reported_named_metabolite
+6-Phosphogluconate	6-Phosphogluconate	name_only		MW REST /metabolites	reported_named_metabolite
+6-Phosphonogluconolactone	6-Phosphonogluconolactone	name_only		MW REST /metabolites	reported_named_metabolite
+Acetylarginine	Acetylarginine	name_only		MW REST /metabolites	reported_named_metabolite
+Acetylcarnitine	Acetylcarnitine	name_only		MW REST /metabolites	reported_named_metabolite
+Acetylcholine	Acetylcholine	name_only		MW REST /metabolites	reported_named_metabolite
+Acetyl-CoA	Acetyl-CoA	name_only		MW REST /metabolites	reported_named_metabolite
+Adenosine	Adenosine	name_only		MW REST /metabolites	reported_named_metabolite
+Adenosine cyclic phosphate	Adenosine cyclic phosphate	name_only		MW REST /metabolites	reported_named_metabolite
+Adenosine diphosphate	Adenosine diphosphate	name_only		MW REST /metabolites	reported_named_metabolite
+Adenosine monophosphate	Adenosine monophosphate	name_only		MW REST /metabolites	reported_named_metabolite
+Adenosine triphosphate	Adenosine triphosphate	name_only		MW REST /metabolites	reported_named_metabolite
+ADP-ribose	ADP-ribose	name_only		MW REST /metabolites	reported_named_metabolite
+AICAR	AICAR	name_only		MW REST /metabolites	reported_named_metabolite
+Ala-Leu	Ala-Leu	name_only		MW REST /metabolites	reported_named_metabolite
+Alanine	Alanine	name_only		MW REST /metabolites	reported_named_metabolite
+Ala-Tyr	Ala-Tyr	name_only		MW REST /metabolites	reported_named_metabolite
+Allantoin	Allantoin	name_only		MW REST /metabolites	reported_named_metabolite
+alpha-Ketoglutarate	alpha-Ketoglutarate	name_only		MW REST /metabolites	reported_named_metabolite
+Aminoadipate	Aminoadipate	name_only		MW REST /metabolites	reported_named_metabolite
+Aminoisobutanoate	Aminoisobutanoate	name_only		MW REST /metabolites	reported_named_metabolite
+Anserine	Anserine	name_only		MW REST /metabolites	reported_named_metabolite
+Arg-Ala	Arg-Ala	name_only		MW REST /metabolites	reported_named_metabolite
+Arginine	Arginine	name_only		MW REST /metabolites	reported_named_metabolite
+Ascorbate	Ascorbate	name_only		MW REST /metabolites	reported_named_metabolite
+Asparagine	Asparagine	name_only		MW REST /metabolites	reported_named_metabolite
+Aspartate	Aspartate	name_only		MW REST /metabolites	reported_named_metabolite
+Aspartylglycosamine	Aspartylglycosamine	name_only		MW REST /metabolites	reported_named_metabolite
+Asp-Pro	Asp-Pro	name_only		MW REST /metabolites	reported_named_metabolite
+Azelate	Azelate	name_only		MW REST /metabolites	reported_named_metabolite
+beta-Alanine	beta-Alanine	name_only		MW REST /metabolites	reported_named_metabolite
+Betaine	Betaine	name_only		MW REST /metabolites	reported_named_metabolite
+Biotin amide	Biotin amide	name_only		MW REST /metabolites	reported_named_metabolite
+Carnitinamide	Carnitinamide	name_only		MW REST /metabolites	reported_named_metabolite
+Carnitine	Carnitine	name_only		MW REST /metabolites	reported_named_metabolite
+Carnitine (10:0)	Carnitine (10:0)	name_only		MW REST /metabolites	reported_named_metabolite
+Carnitine (16:1)	Carnitine (16:1)	name_only		MW REST /metabolites	reported_named_metabolite
+Carnitine (18:0)	Carnitine (18:0)	name_only		MW REST /metabolites	reported_named_metabolite
+Carnitine (18:1)	Carnitine (18:1)	name_only		MW REST /metabolites	reported_named_metabolite
+Carnitine (3:0)	Carnitine (3:0)	name_only		MW REST /metabolites	reported_named_metabolite
+Carnitine (4:0)	Carnitine (4:0)	name_only		MW REST /metabolites	reported_named_metabolite
+Carnitine (5:0)	Carnitine (5:0)	name_only		MW REST /metabolites	reported_named_metabolite
+Carnitine (6:0)	Carnitine (6:0)	name_only		MW REST /metabolites	reported_named_metabolite
+Carnitine (8:0)	Carnitine (8:0)	name_only		MW REST /metabolites	reported_named_metabolite
+Carnitine (glutaryl)	Carnitine (glutaryl)	name_only		MW REST /metabolites	reported_named_metabolite
+Carnosine	Carnosine	name_only		MW REST /metabolites	reported_named_metabolite
+CDP-ethanolamine	CDP-ethanolamine	name_only		MW REST /metabolites	reported_named_metabolite
+Choline	Choline	name_only		MW REST /metabolites	reported_named_metabolite
+cis-4-Hydroxyproline	cis-4-Hydroxyproline	name_only		MW REST /metabolites	reported_named_metabolite
+Citicoline	Citicoline	name_only		MW REST /metabolites	reported_named_metabolite
+Citrulline	Citrulline	name_only		MW REST /metabolites	reported_named_metabolite
+CMP-2-aminoethylphosphonate	CMP-2-aminoethylphosphonate	name_only		MW REST /metabolites	reported_named_metabolite
+CoenzymeA	CoenzymeA	name_only		MW REST /metabolites	reported_named_metabolite
+Creatine	Creatine	name_only		MW REST /metabolites	reported_named_metabolite
+Creatinine	Creatinine	name_only		MW REST /metabolites	reported_named_metabolite
+Cystathionine	Cystathionine	name_only		MW REST /metabolites	reported_named_metabolite
+Cysteate	Cysteate	name_only		MW REST /metabolites	reported_named_metabolite
+Cystine	Cystine	name_only		MW REST /metabolites	reported_named_metabolite
+Cytidine	Cytidine	name_only		MW REST /metabolites	reported_named_metabolite
+Cytidine cyclic phosphate	Cytidine cyclic phosphate	name_only		MW REST /metabolites	reported_named_metabolite
+Cytidine diphosphate	Cytidine diphosphate	name_only		MW REST /metabolites	reported_named_metabolite
+Cytidine monophosphate	Cytidine monophosphate	name_only		MW REST /metabolites	reported_named_metabolite
+Cytidine triphosphate	Cytidine triphosphate	name_only		MW REST /metabolites	reported_named_metabolite
+Decanoate	Decanoate	name_only		MW REST /metabolites	reported_named_metabolite
+Deoxycytidine monophosphate	Deoxycytidine monophosphate	name_only		MW REST /metabolites	reported_named_metabolite
+Deoxyguanosine diphosphate	Deoxyguanosine diphosphate	name_only		MW REST /metabolites	reported_named_metabolite
+Deoxypentose monophosphates	Deoxypentose monophosphates	name_only		MW REST /metabolites	reported_named_metabolite
+Deoxyribose	Deoxyribose	name_only		MW REST /metabolites	reported_named_metabolite
+DHAP-isomer	DHAP-isomer	name_only		MW REST /metabolites	reported_named_metabolite
+Dihydrouracil	Dihydrouracil	name_only		MW REST /metabolites	reported_named_metabolite
+Dihydroxyacetone phosphate	Dihydroxyacetone phosphate	name_only		MW REST /metabolites	reported_named_metabolite
+dimethylglycine	dimethylglycine	name_only		MW REST /metabolites	reported_named_metabolite
+Diphthamide	Diphthamide	name_only		MW REST /metabolites	reported_named_metabolite
+dTDP-glucose	dTDP-glucose	name_only		MW REST /metabolites	reported_named_metabolite
+Ergothioneine	Ergothioneine	name_only		MW REST /metabolites	reported_named_metabolite
+Erythrose 4-phosphate	Erythrose 4-phosphate	name_only		MW REST /metabolites	reported_named_metabolite
+FA (20:2)	FA (20:2)	name_only		MW REST /metabolites	reported_named_metabolite
+Fructose 1,6-bisphosphate	Fructose 1,6-bisphosphate	name_only		MW REST /metabolites	reported_named_metabolite
+Fructose 6-phosphate	Fructose 6-phosphate	name_only		MW REST /metabolites	reported_named_metabolite
+Fucose 1-phosphate	Fucose 1-phosphate	name_only		MW REST /metabolites	reported_named_metabolite
+Galacturonate	Galacturonate	name_only		MW REST /metabolites	reported_named_metabolite
+Gamma-aminobutyrate	Gamma-aminobutyrate	name_only		MW REST /metabolites	reported_named_metabolite
+Glu-Asp	Glu-Asp	name_only		MW REST /metabolites	reported_named_metabolite
+Gluconate	Gluconate	name_only		MW REST /metabolites	reported_named_metabolite
+Glucosamine 6-phosphate	Glucosamine 6-phosphate	name_only		MW REST /metabolites	reported_named_metabolite
+Glucosamine 6-sulfate	Glucosamine 6-sulfate	name_only		MW REST /metabolites	reported_named_metabolite
+Glucose 6-phosphate	Glucose 6-phosphate	name_only		MW REST /metabolites	reported_named_metabolite
+Glucuronolactone	Glucuronolactone	name_only		MW REST /metabolites	reported_named_metabolite
+Glu-Gln	Glu-Gln	name_only		MW REST /metabolites	reported_named_metabolite
+Glu-Glu	Glu-Glu	name_only		MW REST /metabolites	reported_named_metabolite
+Glu-Pro	Glu-Pro	name_only		MW REST /metabolites	reported_named_metabolite
+Glutamate	Glutamate	name_only		MW REST /metabolites	reported_named_metabolite
+Glutamine	Glutamine	name_only		MW REST /metabolites	reported_named_metabolite
+Glutamylcysteine	Glutamylcysteine	name_only		MW REST /metabolites	reported_named_metabolite
+glutamyllysine	glutamyllysine	name_only		MW REST /metabolites	reported_named_metabolite
+Glutarate	Glutarate	name_only		MW REST /metabolites	reported_named_metabolite
+Glutathione	Glutathione	name_only		MW REST /metabolites	reported_named_metabolite
+Glutathione disulfide	Glutathione disulfide	name_only		MW REST /metabolites	reported_named_metabolite
+Glycerol 3-phosphate	Glycerol 3-phosphate	name_only		MW REST /metabolites	reported_named_metabolite
+Glycerophosphocholine	Glycerophosphocholine	name_only		MW REST /metabolites	reported_named_metabolite
+Glycerophosphoethanolamine	Glycerophosphoethanolamine	name_only		MW REST /metabolites	reported_named_metabolite
+Glycerophosphoglycerol	Glycerophosphoglycerol	name_only		MW REST /metabolites	reported_named_metabolite
+Glycerophosphoinositol	Glycerophosphoinositol	name_only		MW REST /metabolites	reported_named_metabolite
+Glycine	Glycine	name_only		MW REST /metabolites	reported_named_metabolite
+Glycineamideribotide	Glycineamideribotide	name_only		MW REST /metabolites	reported_named_metabolite
+Glycylglutamine	Glycylglutamine	name_only		MW REST /metabolites	reported_named_metabolite
+Gly-Leu	Gly-Leu	name_only		MW REST /metabolites	reported_named_metabolite
+Guanidinoacetate	Guanidinoacetate	name_only		MW REST /metabolites	reported_named_metabolite
+Guanidinosuccinate	Guanidinosuccinate	name_only		MW REST /metabolites	reported_named_metabolite
+Guanine	Guanine	name_only		MW REST /metabolites	reported_named_metabolite
+Guanosine	Guanosine	name_only		MW REST /metabolites	reported_named_metabolite
+Guanosine diphosphate	Guanosine diphosphate	name_only		MW REST /metabolites	reported_named_metabolite
+Guanosine diphosphate mannose	Guanosine diphosphate mannose	name_only		MW REST /metabolites	reported_named_metabolite
+Guanosine monophosphate	Guanosine monophosphate	name_only		MW REST /metabolites	reported_named_metabolite
+Hexose_RT7.2	Hexose_RT7.2	name_only		MW REST /metabolites	reported_named_metabolite
+Hexose_RT7.7	Hexose_RT7.7	name_only		MW REST /metabolites	reported_named_metabolite
+Hexose_RT8.7	Hexose_RT8.7	name_only		MW REST /metabolites	reported_named_metabolite
+Hippurate	Hippurate	name_only		MW REST /metabolites	reported_named_metabolite
+Histamine	Histamine	name_only		MW REST /metabolites	reported_named_metabolite
+Histidine	Histidine	name_only		MW REST /metabolites	reported_named_metabolite
+Homoarginine	Homoarginine	name_only		MW REST /metabolites	reported_named_metabolite
+Homovanillate	Homovanillate	name_only		MW REST /metabolites	reported_named_metabolite
+Hydroxycitrate	Hydroxycitrate	name_only		MW REST /metabolites	reported_named_metabolite
+Hydroxyphenyllactate	Hydroxyphenyllactate	name_only		MW REST /metabolites	reported_named_metabolite
+Hypotaurine	Hypotaurine	name_only		MW REST /metabolites	reported_named_metabolite
+Hypoxanthine	Hypoxanthine	name_only		MW REST /metabolites	reported_named_metabolite
+Indoxyl sulfate	Indoxyl sulfate	name_only		MW REST /metabolites	reported_named_metabolite
+Inosine	Inosine	name_only		MW REST /metabolites	reported_named_metabolite
+Inosine monophosphate	Inosine monophosphate	name_only		MW REST /metabolites	reported_named_metabolite
+Itaconate	Itaconate	name_only		MW REST /metabolites	reported_named_metabolite
+Kynurenine	Kynurenine	name_only		MW REST /metabolites	reported_named_metabolite
+Lactate	Lactate	name_only		MW REST /metabolites	reported_named_metabolite
+Leucine/Isoleucine	Leucine/Isoleucine	name_only		MW REST /metabolites	reported_named_metabolite
+Leu-Pro	Leu-Pro	name_only		MW REST /metabolites	reported_named_metabolite
+Leu-Val	Leu-Val	name_only		MW REST /metabolites	reported_named_metabolite
+Lysine	Lysine	name_only		MW REST /metabolites	reported_named_metabolite
+Malate	Malate	name_only		MW REST /metabolites	reported_named_metabolite
+Methacholine	Methacholine	name_only		MW REST /metabolites	reported_named_metabolite
+Methionine	Methionine	name_only		MW REST /metabolites	reported_named_metabolite
+Methyl 4-aminobutyrate	Methyl 4-aminobutyrate	name_only		MW REST /metabolites	reported_named_metabolite
+Methylguanine	Methylguanine	name_only		MW REST /metabolites	reported_named_metabolite
+Myoinositol	Myoinositol	name_only		MW REST /metabolites	reported_named_metabolite
+N-Acetylalanine	N-Acetylalanine	name_only		MW REST /metabolites	reported_named_metabolite
+N-Acetylasparagine	N-Acetylasparagine	name_only		MW REST /metabolites	reported_named_metabolite
+N-Acetylcitrulline	N-Acetylcitrulline	name_only		MW REST /metabolites	reported_named_metabolite
+N-Acetylcysteine	N-Acetylcysteine	name_only		MW REST /metabolites	reported_named_metabolite
+N-Acetylglutamine	N-Acetylglutamine	name_only		MW REST /metabolites	reported_named_metabolite
+N-Acetylglycine	N-Acetylglycine	name_only		MW REST /metabolites	reported_named_metabolite
+N-Acetylhexosamine	N-Acetylhexosamine	name_only		MW REST /metabolites	reported_named_metabolite
+N-Acetylhexosamine phosphate	N-Acetylhexosamine phosphate	name_only		MW REST /metabolites	reported_named_metabolite
+N-Acetylhexosamine sulfate	N-Acetylhexosamine sulfate	name_only		MW REST /metabolites	reported_named_metabolite
+N-Acetylmethionine	N-Acetylmethionine	name_only		MW REST /metabolites	reported_named_metabolite
+N-Acetylneuraminate	N-Acetylneuraminate	name_only		MW REST /metabolites	reported_named_metabolite
+N-Acetylornithine	N-Acetylornithine	name_only		MW REST /metabolites	reported_named_metabolite
+N-Acetylserine	N-Acetylserine	name_only		MW REST /metabolites	reported_named_metabolite
+NAD+	NAD+	name_only		MW REST /metabolites	reported_named_metabolite
+NADH	NADH	name_only		MW REST /metabolites	reported_named_metabolite
+NADP+	NADP+	name_only		MW REST /metabolites	reported_named_metabolite
+NADPH	NADPH	name_only		MW REST /metabolites	reported_named_metabolite
+N-Formylmethionine	N-Formylmethionine	name_only		MW REST /metabolites	reported_named_metabolite
+Nicotinamide	Nicotinamide	name_only		MW REST /metabolites	reported_named_metabolite
+N,N-Dimethylarginine	N,N-Dimethylarginine	name_only		MW REST /metabolites	reported_named_metabolite
+N,N-Dimethyllysine	N,N-Dimethyllysine	name_only		MW REST /metabolites	reported_named_metabolite
+N,N,N-Trimethyllysine	N,N,N-Trimethyllysine	name_only		MW REST /metabolites	reported_named_metabolite
+Norleucine	Norleucine	name_only		MW REST /metabolites	reported_named_metabolite
+Ophthalmate	Ophthalmate	name_only		MW REST /metabolites	reported_named_metabolite
+Ornithine	Ornithine	name_only		MW REST /metabolites	reported_named_metabolite
+Orotate	Orotate	name_only		MW REST /metabolites	reported_named_metabolite
+Orotidine	Orotidine	name_only		MW REST /metabolites	reported_named_metabolite
+Oxoadipate	Oxoadipate	name_only		MW REST /metabolites	reported_named_metabolite
+PC (32:0)	PC (32:0)	name_only		MW REST /metabolites	reported_named_metabolite
+PC (32:1)	PC (32:1)	name_only		MW REST /metabolites	reported_named_metabolite
+PC (32:2)	PC (32:2)	name_only		MW REST /metabolites	reported_named_metabolite
+PC (34:1)	PC (34:1)	name_only		MW REST /metabolites	reported_named_metabolite
+PC (34:2)	PC (34:2)	name_only		MW REST /metabolites	reported_named_metabolite
+PC (36:1)	PC (36:1)	name_only		MW REST /metabolites	reported_named_metabolite
+PC (36:2)	PC (36:2)	name_only		MW REST /metabolites	reported_named_metabolite
+PC (36:4)	PC (36:4)	name_only		MW REST /metabolites	reported_named_metabolite
+PC (36:5)	PC (36:5)	name_only		MW REST /metabolites	reported_named_metabolite
+PC (38:4)	PC (38:4)	name_only		MW REST /metabolites	reported_named_metabolite
+PC (38:5)	PC (38:5)	name_only		MW REST /metabolites	reported_named_metabolite
+PC (40:4)	PC (40:4)	name_only		MW REST /metabolites	reported_named_metabolite
+PC (40:5)	PC (40:5)	name_only		MW REST /metabolites	reported_named_metabolite
+PC (40:6)	PC (40:6)	name_only		MW REST /metabolites	reported_named_metabolite
+PC (40:8)	PC (40:8)	name_only		MW REST /metabolites	reported_named_metabolite
+P-DMEA	P-DMEA	name_only		MW REST /metabolites	reported_named_metabolite
+PE (34:1)	PE (34:1)	name_only		MW REST /metabolites	reported_named_metabolite
+PE (34:2)	PE (34:2)	name_only		MW REST /metabolites	reported_named_metabolite
+PE (36:1)	PE (36:1)	name_only		MW REST /metabolites	reported_named_metabolite
+PE (36:2)	PE (36:2)	name_only		MW REST /metabolites	reported_named_metabolite
+PE (36:3)	PE (36:3)	name_only		MW REST /metabolites	reported_named_metabolite
+PE (38:1)	PE (38:1)	name_only		MW REST /metabolites	reported_named_metabolite
+PE (38:4)	PE (38:4)	name_only		MW REST /metabolites	reported_named_metabolite
+PE (38:5)	PE (38:5)	name_only		MW REST /metabolites	reported_named_metabolite
+PE (38:6)	PE (38:6)	name_only		MW REST /metabolites	reported_named_metabolite
+PE (40:5)	PE (40:5)	name_only		MW REST /metabolites	reported_named_metabolite
+PE (40:7)	PE (40:7)	name_only		MW REST /metabolites	reported_named_metabolite
+Pentoses-1	Pentoses-1	name_only		MW REST /metabolites	reported_named_metabolite
+Pentoses-2	Pentoses-2	name_only		MW REST /metabolites	reported_named_metabolite
+Phenylalanine	Phenylalanine	name_only		MW REST /metabolites	reported_named_metabolite
+Phosphocreatine	Phosphocreatine	name_only		MW REST /metabolites	reported_named_metabolite
+Phosphoenolpyruvate	Phosphoenolpyruvate	name_only		MW REST /metabolites	reported_named_metabolite
+Phosphoethanolamine	Phosphoethanolamine	name_only		MW REST /metabolites	reported_named_metabolite
+Phosphorylcholine	Phosphorylcholine	name_only		MW REST /metabolites	reported_named_metabolite
+PI (32:0)	PI (32:0)	name_only		MW REST /metabolites	reported_named_metabolite
+Pipecolate	Pipecolate	name_only		MW REST /metabolites	reported_named_metabolite
+Platelet-activating factor	Platelet-activating factor	name_only		MW REST /metabolites	reported_named_metabolite
+Proline	Proline	name_only		MW REST /metabolites	reported_named_metabolite
+propionylcholine	propionylcholine	name_only		MW REST /metabolites	reported_named_metabolite
+PS (34:2)	PS (34:2)	name_only		MW REST /metabolites	reported_named_metabolite
+PS (36:1)	PS (36:1)	name_only		MW REST /metabolites	reported_named_metabolite
+PS (36:4)	PS (36:4)	name_only		MW REST /metabolites	reported_named_metabolite
+PS (38:3)	PS (38:3)	name_only		MW REST /metabolites	reported_named_metabolite
+PS (38:5)	PS (38:5)	name_only		MW REST /metabolites	reported_named_metabolite
+PS (38:6)	PS (38:6)	name_only		MW REST /metabolites	reported_named_metabolite
+PS (40:5)	PS (40:5)	name_only		MW REST /metabolites	reported_named_metabolite
+PS (40:6)	PS (40:6)	name_only		MW REST /metabolites	reported_named_metabolite
+PS (40:7)	PS (40:7)	name_only		MW REST /metabolites	reported_named_metabolite
+Pyroglutamate	Pyroglutamate	name_only		MW REST /metabolites	reported_named_metabolite
+Pyruvate	Pyruvate	name_only		MW REST /metabolites	reported_named_metabolite
+Quinolinate	Quinolinate	name_only		MW REST /metabolites	reported_named_metabolite
+Ribose	Ribose	name_only		MW REST /metabolites	reported_named_metabolite
+Ribulose/Ribose/Xylulose 5-phosphate	Ribulose/Ribose/Xylulose 5-phosphate	name_only		MW REST /metabolites	reported_named_metabolite
+Saccharate	Saccharate	name_only		MW REST /metabolites	reported_named_metabolite
+S-Adenosylhomocysteine	S-Adenosylhomocysteine	name_only		MW REST /metabolites	reported_named_metabolite
+S-Adenosylmethionine	S-Adenosylmethionine	name_only		MW REST /metabolites	reported_named_metabolite
+SAICA	SAICA	name_only		MW REST /metabolites	reported_named_metabolite
+Salicylamide	Salicylamide	name_only		MW REST /metabolites	reported_named_metabolite
+Sebacate	Sebacate	name_only		MW REST /metabolites	reported_named_metabolite
+Sedoheptulose	Sedoheptulose	name_only		MW REST /metabolites	reported_named_metabolite
+Sedoheptulose 7-phosphate	Sedoheptulose 7-phosphate	name_only		MW REST /metabolites	reported_named_metabolite
+Ser-Arg	Ser-Arg	name_only		MW REST /metabolites	reported_named_metabolite
+Serine	Serine	name_only		MW REST /metabolites	reported_named_metabolite
+SM (32:1)	SM (32:1)	name_only		MW REST /metabolites	reported_named_metabolite
+SM (34:1)	SM (34:1)	name_only		MW REST /metabolites	reported_named_metabolite
+SM (36:1)	SM (36:1)	name_only		MW REST /metabolites	reported_named_metabolite
+SM (36:2)	SM (36:2)	name_only		MW REST /metabolites	reported_named_metabolite
+S-Methylthioadenosine	S-Methylthioadenosine	name_only		MW REST /metabolites	reported_named_metabolite
+Sorbitol	Sorbitol	name_only		MW REST /metabolites	reported_named_metabolite
+Sphinganine	Sphinganine	name_only		MW REST /metabolites	reported_named_metabolite
+Sphingosine	Sphingosine	name_only		MW REST /metabolites	reported_named_metabolite
+Stachydrine	Stachydrine	name_only		MW REST /metabolites	reported_named_metabolite
+Taurine	Taurine	name_only		MW REST /metabolites	reported_named_metabolite
+Taurocyamine	Taurocyamine	name_only		MW REST /metabolites	reported_named_metabolite
+Thioproline	Thioproline	name_only		MW REST /metabolites	reported_named_metabolite
+Thr-Arg	Thr-Arg	name_only		MW REST /metabolites	reported_named_metabolite
+Threonate	Threonate	name_only		MW REST /metabolites	reported_named_metabolite
+Threonine	Threonine	name_only		MW REST /metabolites	reported_named_metabolite
+trans-4-Hydroxyproline	trans-4-Hydroxyproline	name_only		MW REST /metabolites	reported_named_metabolite
+trans-Aconitate	trans-Aconitate	name_only		MW REST /metabolites	reported_named_metabolite
+Trigonelline	Trigonelline	name_only		MW REST /metabolites	reported_named_metabolite
+Tryptophan	Tryptophan	name_only		MW REST /metabolites	reported_named_metabolite
+Tyr-Arg	Tyr-Arg	name_only		MW REST /metabolites	reported_named_metabolite
+Tyrosine	Tyrosine	name_only		MW REST /metabolites	reported_named_metabolite
+UDP-D-galacturonate	UDP-D-galacturonate	name_only		MW REST /metabolites	reported_named_metabolite
+UDP-glucose	UDP-glucose	name_only		MW REST /metabolites	reported_named_metabolite
+UDP-N-acetylglucosamine	UDP-N-acetylglucosamine	name_only		MW REST /metabolites	reported_named_metabolite
+Uracil	Uracil	name_only		MW REST /metabolites	reported_named_metabolite
+Urate	Urate	name_only		MW REST /metabolites	reported_named_metabolite
+Uridine	Uridine	name_only		MW REST /metabolites	reported_named_metabolite
+Uridine diphosphate	Uridine diphosphate	name_only		MW REST /metabolites	reported_named_metabolite
+Uridine monophosphate	Uridine monophosphate	name_only		MW REST /metabolites	reported_named_metabolite
+Uridine triphosphate	Uridine triphosphate	name_only		MW REST /metabolites	reported_named_metabolite
+Valine	Valine	name_only		MW REST /metabolites	reported_named_metabolite
+Val-Lys	Val-Lys	name_only		MW REST /metabolites	reported_named_metabolite
+Xanthine	Xanthine	name_only		MW REST /metabolites	reported_named_metabolite
+β-Hydroxycarnitine (14:0)	β-Hydroxycarnitine (14:0)	name_only		MW REST /metabolites	reported_named_metabolite
+β-Hydroxycarnitine (16:0)	β-Hydroxycarnitine (16:0)	name_only		MW REST /metabolites	reported_named_metabolite
+β-Hydroxycarnitine (4:0)	β-Hydroxycarnitine (4:0)	name_only		MW REST /metabolites	reported_named_metabolite
+β-Hydroxycarnitine (5:0)	β-Hydroxycarnitine (5:0)	name_only		MW REST /metabolites	reported_named_metabolite
+β-Hydroxycarnitine (6:0)	β-Hydroxycarnitine (6:0)	name_only		MW REST /metabolites	reported_named_metabolite
+β-Hydroxycarnitine (8:0)	β-Hydroxycarnitine (8:0)	name_only		MW REST /metabolites	reported_named_metabolite

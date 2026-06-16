@@ -1,0 +1,2 @@
+source_id	matrix_found	endpoint_or_url	local_path	n_samples	n_metabolites	parse_status	reason_if_missing	next_action
+Li_ST002477	YES	https://www.metabolomicsworkbench.org/rest/study/study_id/ST002477/data	outputs/LI_ST002477_intensity_matrix.tsv	75	287	OK		run 02_qc

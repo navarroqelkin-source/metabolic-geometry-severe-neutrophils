@@ -1,0 +1,8 @@
+scenario_id	scenario_name	F0	D0	C0	P0	KR	B0	expected_Y_pattern	mechanistic_interpretation	claim_ceiling
+S01	baseline	1.0	1.0	1.0	0.0	1.0	0.0	reference	baseline_synthetic_reference	no_biological_claim
+S02	high_formation	3.0	1.0	1.0	0.0	1.0	0.0	high_Y	formation_dominant_synthetic	no_biological_claim
+S03	low_degradation	1.0	0.25	1.0	0.0	1.0	0.0	high_Y	clearance_degradation_defect_synthetic	no_biological_claim
+S04	low_systemic_clearance	1.0	1.0	0.25	0.0	1.0	0.0	high_Y	systemic_clearance_defect_synthetic	no_biological_claim
+S05	high_detectability	1.0	1.0	1.0	0.0	3.0	0.0	high_Y	composition_detectability_synthetic	no_biological_claim
+S06	high_persistence	1.0	1.0	1.0	2.0	1.0	0.0	high_Y	spatial_persistence_synthetic	no_biological_claim
+S07	formation_and_clearance_compensation	3.0	3.0	1.0	0.0	1.0	0.0	near_reference	compensated_synthetic	no_biological_claim

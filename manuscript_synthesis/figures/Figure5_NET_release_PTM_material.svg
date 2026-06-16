@@ -1,0 +1,105 @@
+<svg viewBox="0 0 1000 620" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" role="img" aria-labelledby="t d">
+  <title id="t">NET/release material and PTM annotation (Chapman_PXD011796)</title>
+  <desc id="d">Compositional reading of structured released neutrophil-associated material in RA/SLE (Chapman_PXD011796). Panel a: 752 structured released proteins (272 healthy control, 480 RA/SLE); 141 module-assigned, 611 other structured material. Panel b: module annotation by protein count and q-significant count (cytoskeletal 46/21, chromatin-histone 32/18, granule-protease 31/21, nuclear-antigen 17/8, MPO-oxidative 14/4, complement-plasma 1/0). Panel c: PTM entries (citrullination 87 peptide entries/46 proteins, acetylation 60/49, methylation 16/12; histone H3 represented across PTM entries). Panel d: interpretive boundary. Composition and PTM presence, not NETosis rate, not enzyme activity, not pathogenicity, not causal mechanism.</desc>
+
+  <rect x="0" y="0" width="1000" height="620" fill="#ffffff"/>
+
+  <!-- Title -->
+  <text x="500" y="32" text-anchor="middle" font-size="20" font-weight="700" fill="#1f2937">NET/release material and post-translational-modification annotation</text>
+  <text x="500" y="53" text-anchor="middle" font-size="12.5" fill="#6b7280">Compositional reading of structured released neutrophil-associated material in RA/SLE · Chapman_PXD011796</text>
+
+  <!-- ===== Panel a: structured released material ===== -->
+  <g>
+    <text x="60" y="86" font-size="13.5" font-weight="700" fill="#334155">a · Structured released material</text>
+    <rect x="60" y="98" width="420" height="232" rx="8" fill="#fcfcfd" stroke="#e5e7eb"/>
+    <g>
+      <rect x="90" y="120" width="360" height="34" rx="4" fill="#0f766e"/>
+      <text x="270" y="142" text-anchor="middle" font-size="12" font-weight="700" fill="#ffffff">752 structured proteins</text>
+      <text x="150" y="180" font-size="11.5" fill="#475569">272 healthy control</text>
+      <text x="320" y="180" font-size="11.5" fill="#475569">480 RA/SLE</text>
+      <rect x="90" y="196" width="120" height="30" rx="4" fill="#2dd4bf"/>
+      <text x="150" y="216" text-anchor="middle" font-size="11.5" font-weight="700" fill="#064e3b">141 module-assigned</text>
+      <rect x="222" y="196" width="228" height="30" rx="4" fill="#cbd5e1"/>
+      <text x="336" y="216" text-anchor="middle" font-size="11.5" font-weight="700" fill="#334155">611 other structured material</text>
+    </g>
+    <text x="80" y="262" font-size="11" fill="#475569">Structured released material —</text>
+    <text x="80" y="280" font-size="11" font-weight="700" fill="#0f766e">not a NETosis rate, not a formation rate.</text>
+    <text x="80" y="306" font-size="10.5" font-style="italic" fill="#64748b">Counts are reported entries; no kinetic quantity is shown.</text>
+  </g>
+
+  <!-- ===== Panel b: module composition ===== -->
+  <g>
+    <text x="520" y="86" font-size="13.5" font-weight="700" fill="#334155">b · Module annotation (proteins · q-significant)</text>
+    <rect x="520" y="98" width="420" height="232" rx="8" fill="#fcfcfd" stroke="#e5e7eb"/>
+    <!-- rows: light bar = total proteins, dark bar = q-significant; scale 6.3 px/protein from x=690 -->
+    <g font-size="10.5" fill="#334155">
+      <!-- cytoskeletal 46 / 21 -->
+      <text x="535" y="131">cytoskeletal</text>
+      <rect x="690" y="121" width="290" height="13" rx="3" fill="#99f6e4"/>
+      <rect x="690" y="121" width="132" height="13" rx="3" fill="#0f766e"/>
+      <text x="985" y="131" text-anchor="end" font-size="10" fill="#475569">46 / 21</text>
+      <!-- chromatin-histone 32 / 18 -->
+      <text x="535" y="155">chromatin / histone</text>
+      <rect x="690" y="145" width="202" height="13" rx="3" fill="#99f6e4"/>
+      <rect x="690" y="145" width="113" height="13" rx="3" fill="#0f766e"/>
+      <text x="985" y="155" text-anchor="end" font-size="10" fill="#475569">32 / 18</text>
+      <!-- granule-protease 31 / 21 -->
+      <text x="535" y="179">granule / protease</text>
+      <rect x="690" y="169" width="195" height="13" rx="3" fill="#99f6e4"/>
+      <rect x="690" y="169" width="132" height="13" rx="3" fill="#0f766e"/>
+      <text x="985" y="179" text-anchor="end" font-size="10" fill="#475569">31 / 21</text>
+      <!-- nuclear-antigen 17 / 8 -->
+      <text x="535" y="203">nuclear antigen</text>
+      <rect x="690" y="193" width="107" height="13" rx="3" fill="#99f6e4"/>
+      <rect x="690" y="193" width="50" height="13" rx="3" fill="#0f766e"/>
+      <text x="985" y="203" text-anchor="end" font-size="10" fill="#475569">17 / 8</text>
+      <!-- MPO-oxidative 14 / 4 -->
+      <text x="535" y="227">MPO / oxidative</text>
+      <rect x="690" y="217" width="88" height="13" rx="3" fill="#99f6e4"/>
+      <rect x="690" y="217" width="25" height="13" rx="3" fill="#0f766e"/>
+      <text x="985" y="227" text-anchor="end" font-size="10" fill="#475569">14 / 4</text>
+      <!-- complement-plasma 1 / 0 -->
+      <text x="535" y="251">complement / plasma</text>
+      <rect x="690" y="241" width="7" height="13" rx="3" fill="#99f6e4"/>
+      <text x="985" y="251" text-anchor="end" font-size="10" fill="#475569">1 / 0</text>
+    </g>
+    <text x="540" y="284" font-size="10.5" fill="#475569"><tspan fill="#0f766e" font-weight="700">solid</tspan> = q-significant · <tspan fill="#99f6e4" font-weight="700">light</tspan> = proteins in module</text>
+    <text x="540" y="306" font-size="11" font-weight="700" fill="#0f766e">Module annotation, not a causal hierarchy.</text>
+  </g>
+
+  <!-- ===== Panel c: PTM annotation ===== -->
+  <g>
+    <text x="60" y="368" font-size="13.5" font-weight="700" fill="#334155">c · PTM annotation (Table_6 entries)</text>
+    <rect x="60" y="380" width="420" height="170" rx="8" fill="#fcfcfd" stroke="#e5e7eb"/>
+    <g font-size="11.5" fill="#334155">
+      <text x="80" y="408" font-weight="700" fill="#0f766e">Citrullination</text>
+      <text x="300" y="408" text-anchor="end" fill="#475569">87 peptide entries / 46 proteins</text>
+      <text x="80" y="432" font-weight="700" fill="#0f766e">Acetylation</text>
+      <text x="300" y="432" text-anchor="end" fill="#475569">60 entries / 49 proteins</text>
+      <text x="80" y="456" font-weight="700" fill="#0f766e">Methylation</text>
+      <text x="300" y="456" text-anchor="end" fill="#475569">16 entries / 12 proteins</text>
+    </g>
+    <line x1="80" y1="470" x2="460" y2="470" stroke="#e5e7eb" stroke-width="1"/>
+    <text x="80" y="492" font-size="11" fill="#475569">Histone H3 represented across PTM entries</text>
+    <text x="80" y="510" font-size="10.5" font-style="italic" fill="#64748b">(not co-occurrence on the same peptide/residue)</text>
+    <text x="80" y="534" font-size="11" font-weight="700" fill="#0f766e">PTM entries, not enzyme activity.</text>
+  </g>
+
+  <!-- ===== Panel d: interpretive boundary ===== -->
+  <g>
+    <text x="520" y="368" font-size="13.5" font-weight="700" fill="#334155">d · What this annotates — and what it does not</text>
+    <rect x="520" y="380" width="420" height="170" rx="8" fill="#f0fdfa" stroke="#99f6e4"/>
+    <text x="540" y="408" font-size="11.5" fill="#0f766e" font-style="italic">"Chapman supports a compositional and PTM-annotated</text>
+    <text x="540" y="426" font-size="11.5" fill="#0f766e" font-style="italic">reading of released neutrophil-associated material,</text>
+    <text x="540" y="444" font-size="11.5" fill="#0f766e" font-style="italic">not a kinetic or causal measurement of NETosis."</text>
+    <line x1="540" y1="460" x2="920" y2="460" stroke="#cbeee7" stroke-width="1"/>
+    <text x="540" y="482" font-size="11" font-weight="700" fill="#334155">Interpretive limit:</text>
+    <text x="540" y="502" font-size="11" fill="#475569">composition, not kinetics · PTM presence, not PTM rate</text>
+    <text x="540" y="520" font-size="11" fill="#475569">released material, not pathogenicity · associated</text>
+    <text x="540" y="538" font-size="11" fill="#475569">material, not causal mechanism</text>
+  </g>
+
+  <!-- Footer -->
+  <line x1="60" y1="575" x2="940" y2="575" stroke="#e5e7eb" stroke-width="1"/>
+  <text x="500" y="596" text-anchor="middle" font-size="10.5" fill="#94a3b8">Figure 5 · composition of released material + PTM annotation · not NETosis rate, not enzyme activity, not pathogenicity, not causal</text>
+</svg>

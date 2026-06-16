@@ -1,0 +1,7 @@
+# base cv=0.15, 4 timepoints | synthetic illustration of method/design behaviour, not a result
+ambiguity	M0	M1	M2	M3	M4	M5	M6	M7
+A1	0.0	1.0	0.998	1.0	0.052	0.0	0.052	1.0
+A2	0.0	0.0	1.0	1.0	0.0	0.004	1.0	1.0
+A3	0.0	1.0	0.998	1.0	0.0	0.038	0.0	1.0
+A4	0.0	0.046	0.0	0.056	1.0	0.0	0.048	0.0
+A5	0.0	0.0	0.022	0.0	0.0	1.0	0.0	1.0

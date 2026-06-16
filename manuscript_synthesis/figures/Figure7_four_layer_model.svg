@@ -1,0 +1,116 @@
+<svg viewBox="0 0 1040 660" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" role="img" aria-labelledby="t d">
+  <title id="t">Integrated multi-layer, multi-temporal neutrophil model</title>
+  <desc id="d">Four independent neutrophil-related molecular layers placed on a timescale axis: rapid phosphosignaling, metabolic state, released NET material, and cell-state architecture. Only the metabolic layer shows a measured result. Cross-layer links are dashed hypotheses. The datasets are independent and not co-measured.</desc>
+
+  <rect x="0" y="0" width="1040" height="660" fill="#ffffff"/>
+
+  <!-- Title -->
+  <text x="520" y="34" text-anchor="middle" font-size="21" font-weight="700" fill="#1f2937">A multi-layer, multi-temporal reading of the neutrophil</text>
+  <text x="520" y="56" text-anchor="middle" font-size="13" fill="#6b7280">Each layer measures a partial truth about the neutrophil; the error would be to force them all to say the same thing.</text>
+
+  <!-- Timescale axis -->
+  <line x1="60" y1="92" x2="980" y2="92" stroke="#9ca3af" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="60" y="84" font-size="11.5" fill="#6b7280">faster · internal</text>
+  <text x="980" y="84" text-anchor="end" font-size="11.5" fill="#6b7280">slower · state / released</text>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#64748b"/>
+    </marker>
+  </defs>
+
+  <!-- Dashed hypothesis links between panels (drawn behind boxes) -->
+  <g stroke="#b0559f" stroke-width="2" stroke-dasharray="5 4" fill="none">
+    <line x1="240" y1="300" x2="280" y2="300"/>
+    <line x1="480" y1="300" x2="520" y2="300"/>
+    <line x1="720" y1="300" x2="760" y2="300"/>
+  </g>
+  <text x="520" y="540" text-anchor="middle" font-size="11.5" fill="#a855a0">dashed links = biological hypotheses for paired studies (not measured relationships)</text>
+
+  <!-- ===== Panel 1: Rapid signaling ===== -->
+  <g>
+    <rect x="60" y="120" width="180" height="360" rx="10" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+    <text x="150" y="148" text-anchor="middle" font-size="14.5" font-weight="700" fill="#334155">Rapid signaling</text>
+    <text x="150" y="167" text-anchor="middle" font-size="11" fill="#64748b">seconds–minutes</text>
+    <text x="150" y="205" text-anchor="middle" font-size="11.5" fill="#475569">phosphosignaling</text>
+    <text x="150" y="222" text-anchor="middle" font-size="11.5" fill="#475569">before new genes</text>
+    <rect x="78" y="250" width="144" height="58" rx="6" fill="#eef2f7" stroke="#cbd5e1"/>
+    <text x="150" y="272" text-anchor="middle" font-size="10.5" fill="#64748b">PXD029046 · human</text>
+    <text x="150" y="289" text-anchor="middle" font-size="10.5" fill="#64748b">published evidence</text>
+    <text x="150" y="438" text-anchor="middle" font-size="10.5" font-style="italic" fill="#64748b">cannot say:</text>
+    <text x="150" y="454" text-anchor="middle" font-size="10.5" font-style="italic" fill="#64748b">downstream function</text>
+  </g>
+
+  <!-- ===== Panel 2: Metabolic state (MEASURED) ===== -->
+  <g>
+    <rect x="280" y="120" width="200" height="360" rx="10" fill="#ecfdf5" stroke="#10b981" stroke-width="2.2"/>
+    <rect x="280" y="120" width="200" height="22" rx="10" fill="#10b981"/>
+    <text x="380" y="136" text-anchor="middle" font-size="10.5" font-weight="700" fill="#ffffff">MEASURED RESULT</text>
+    <text x="380" y="166" text-anchor="middle" font-size="14.5" font-weight="700" fill="#065f46">Metabolic state</text>
+    <text x="380" y="184" text-anchor="middle" font-size="11" fill="#047857">minutes–hours</text>
+    <!-- three separable clouds -->
+    <g>
+      <circle cx="330" cy="246" r="20" fill="#a7f3d0" opacity="0.85"/>
+      <circle cx="372" cy="232" r="20" fill="#5eead4" opacity="0.8"/>
+      <circle cx="420" cy="262" r="22" fill="#2dd4bf" opacity="0.8"/>
+      <text x="330" y="249" text-anchor="middle" font-size="9.5" fill="#065f46">Ctrl</text>
+      <text x="372" y="235" text-anchor="middle" font-size="9.5" fill="#065f46">Mild</text>
+      <text x="420" y="265" text-anchor="middle" font-size="9.5" fill="#064e3b">Sev</text>
+    </g>
+    <text x="380" y="306" text-anchor="middle" font-size="10.5" fill="#047857">distinguishable states · p≈0.001</text>
+    <text x="380" y="322" text-anchor="middle" font-size="10.5" fill="#047857">glycolysis / PPP contributors</text>
+    <rect x="298" y="338" width="164" height="38" rx="6" fill="#d1fae5" stroke="#6ee7b7"/>
+    <text x="380" y="354" text-anchor="middle" font-size="10.5" fill="#065f46">Li_ST002477 · human neutrophil</text>
+    <text x="380" y="369" text-anchor="middle" font-size="10.5" fill="#065f46">COVID-19 severity</text>
+    <text x="380" y="438" text-anchor="middle" font-size="10.5" font-style="italic" fill="#10b981">cannot say:</text>
+    <text x="380" y="454" text-anchor="middle" font-size="10.5" font-style="italic" fill="#10b981">flux (state, not rate)</text>
+  </g>
+
+  <!-- ===== Panel 3: Released material ===== -->
+  <g>
+    <rect x="520" y="120" width="200" height="360" rx="10" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+    <text x="620" y="148" text-anchor="middle" font-size="14.5" font-weight="700" fill="#334155">Released material</text>
+    <text x="620" y="167" text-anchor="middle" font-size="11" fill="#64748b">effector output</text>
+    <text x="620" y="203" text-anchor="middle" font-size="11.5" fill="#475569">NETs · histones · proteases</text>
+    <text x="620" y="220" text-anchor="middle" font-size="11.5" fill="#475569">MPO · cytoskeleton</text>
+    <g font-size="9.5" fill="#7c5e8a">
+      <rect x="540" y="236" width="74" height="20" rx="10" fill="#f3e8f7" stroke="#d8b4e2"/>
+      <text x="577" y="250" text-anchor="middle">citrullination</text>
+      <rect x="626" y="236" width="66" height="20" rx="10" fill="#f3e8f7" stroke="#d8b4e2"/>
+      <text x="659" y="250" text-anchor="middle">acetylation</text>
+      <rect x="566" y="262" width="70" height="20" rx="10" fill="#f3e8f7" stroke="#d8b4e2"/>
+      <text x="601" y="276" text-anchor="middle">methylation</text>
+    </g>
+    <text x="620" y="304" text-anchor="middle" font-size="10" fill="#64748b">752 proteins · histone H3 across PTM entries</text>
+    <rect x="538" y="320" width="164" height="38" rx="6" fill="#eef2f7" stroke="#cbd5e1"/>
+    <text x="620" y="336" text-anchor="middle" font-size="10.5" fill="#64748b">Chapman_PXD011796 · human</text>
+    <text x="620" y="351" text-anchor="middle" font-size="10.5" fill="#64748b">RA / SLE</text>
+    <text x="620" y="438" text-anchor="middle" font-size="10.5" font-style="italic" fill="#64748b">cannot say:</text>
+    <text x="620" y="454" text-anchor="middle" font-size="10.5" font-style="italic" fill="#64748b">NETosis rate · enzyme activity</text>
+  </g>
+
+  <!-- ===== Panel 4: Cell-state architecture ===== -->
+  <g>
+    <rect x="760" y="120" width="220" height="360" rx="10" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+    <text x="870" y="148" text-anchor="middle" font-size="14.5" font-weight="700" fill="#334155">Cell-state architecture</text>
+    <text x="870" y="167" text-anchor="middle" font-size="11" fill="#64748b">state / program organization</text>
+    <!-- 7 hub dots -->
+    <g fill="#94a3b8">
+      <circle cx="800" cy="222" r="9"/><circle cx="836" cy="210" r="9"/><circle cx="872" cy="226" r="9"/>
+      <circle cx="908" cy="208" r="9"/><circle cx="944" cy="224" r="9"/><circle cx="818" cy="248" r="9"/>
+      <circle cx="890" cy="250" r="9"/>
+    </g>
+    <text x="870" y="284" text-anchor="middle" font-size="10.5" fill="#64748b">7 hubs · 3039 marker genes</text>
+    <text x="870" y="300" text-anchor="middle" font-size="10.5" fill="#64748b">maturation · IFN · immunosuppr. · AP</text>
+    <rect x="778" y="316" width="184" height="46" rx="6" fill="#eef2f7" stroke="#cbd5e1"/>
+    <text x="870" y="333" text-anchor="middle" font-size="10.5" fill="#64748b">NeuMap · primarily mouse-derived</text>
+    <text x="870" y="349" text-anchor="middle" font-size="10.5" fill="#64748b">reported human conservation</text>
+    <text x="870" y="438" text-anchor="middle" font-size="10.5" font-style="italic" fill="#64748b">cannot say:</text>
+    <text x="870" y="454" text-anchor="middle" font-size="10.5" font-style="italic" fill="#64748b">executed function</text>
+  </g>
+
+  <!-- Footer note -->
+  <line x1="60" y1="572" x2="980" y2="572" stroke="#e5e7eb" stroke-width="1"/>
+  <text x="520" y="596" text-anchor="middle" font-size="12" fill="#4b5563">Four independent public datasets — different cells, species and diseases — read as complementary, <tspan font-weight="700">not co-measured</tspan>.</text>
+  <text x="520" y="616" text-anchor="middle" font-size="11" fill="#64748b">Only the metabolic layer carries a quantitative severity axis and a measured result; the other layers are schematic compositions / states.</text>
+  <text x="520" y="640" text-anchor="middle" font-size="10.5" fill="#94a3b8">Figure 7 · conceptual multi-layer synthesis · no sample-level fusion, no causal claim</text>
+</svg>

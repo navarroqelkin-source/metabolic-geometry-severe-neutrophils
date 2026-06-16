@@ -1,0 +1,8 @@
+scenario_id	scenario_name	latent_configuration	observed_pattern	allowed_claim	prohibited_claim	manuscript_use_allowed	figure_candidate	notes
+S01	baseline	reference_synthetic_parameters	reference_Y	Synthetic reference trajectory only	No biological baseline claim	YES	YES	Control curve
+S02	high_formation	F_high_D_normal_C_normal	high_Y	High formation can generate high observed biomarker in synthetic model	Does not prove NET overproduction in disease	YES	YES	Mechanism not inferable from Y alone
+S03	low_degradation	F_normal_D_low_C_normal	high_Y	Low degradation can generate high observed biomarker in synthetic model	Does not prove DNase failure in disease	YES	YES	Alternative latent mechanism
+S04	low_systemic_clearance	F_normal_D_normal_C_low	high_Y	Low systemic clearance can generate high observed biomarker in synthetic model	Does not localize mechanism to neutrophil	YES	YES	Extra-neutrophil locus
+S05	high_detectability	B_normal_KR_high	high_Y	Marker detectability can alter observed signal	Does not prove biological burden is high	YES	YES	Observation model ambiguity
+S06	high_persistence	P_high	high_Y	Spatial persistence can raise apparent burden in synthetic model	Does not prove tissue retention in any disease	YES	YES	Spatial/locus ambiguity
+S07	formation_and_clearance_compensation	F_high_D_high	near_reference_Y	Opposing latent mechanisms can compensate in observed biomarker	Does not prove compensation in vivo	YES	YES	Shows why paired measurement matters

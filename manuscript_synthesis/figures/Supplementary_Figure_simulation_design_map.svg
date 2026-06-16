@@ -1,0 +1,164 @@
+<svg viewBox="0 0 978 620" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" role="img" aria-labelledby="t d">
+<title id="t">In silico measurement-design identifiability map</title>
+<desc id="d">Ambiguity-reduction score (0 indistinguishable from burden alone, 1 resolved) for each measurement breaker against each ambiguity, under known latent truth. Burden-only resolves nothing; different breakers resolve different ambiguities; viability and function are blind spots unless measured directly. Synthetic illustration of method/design behaviour, not a result.</desc>
+<rect x="0" y="0" width="978" height="620" fill="#ffffff"/>
+<text x="489.0" y="40" text-anchor="middle" font-size="19" font-weight="700" fill="#1f2937">In silico measurement-design identifiability map</text>
+<text x="489.0" y="62" text-anchor="middle" font-size="12.5" fill="#6b7280">Which measurement breaker reduces which ambiguity that burden-only readouts collapse, under known latent truth</text>
+<text x="489.0" y="84" text-anchor="middle" font-size="11.5" fill="#475569">ambiguity-reduction score: 0 = indistinguishable from burden alone, 1 = resolved</text>
+<text x="293.0" y="126" text-anchor="middle" font-size="10.5" font-weight="700" fill="#334155">M0</text>
+<text x="293.0" y="139" text-anchor="middle" font-size="10.5" font-weight="700" fill="#334155">burden</text>
+<text x="379.0" y="126" text-anchor="middle" font-size="10.5" font-weight="700" fill="#334155">M1</text>
+<text x="379.0" y="139" text-anchor="middle" font-size="10.5" font-weight="700" fill="#334155">formation</text>
+<text x="465.0" y="126" text-anchor="middle" font-size="10.5" font-weight="700" fill="#334155">M2</text>
+<text x="465.0" y="139" text-anchor="middle" font-size="10.5" font-weight="700" fill="#334155">clearance</text>
+<text x="551.0" y="126" text-anchor="middle" font-size="10.5" font-weight="700" fill="#334155">M3</text>
+<text x="551.0" y="139" text-anchor="middle" font-size="10.5" font-weight="700" fill="#334155">time-course</text>
+<text x="637.0" y="126" text-anchor="middle" font-size="10.5" font-weight="700" fill="#334155">M4</text>
+<text x="637.0" y="139" text-anchor="middle" font-size="10.5" font-weight="700" fill="#334155">viability</text>
+<text x="723.0" y="126" text-anchor="middle" font-size="10.5" font-weight="700" fill="#334155">M5</text>
+<text x="723.0" y="139" text-anchor="middle" font-size="10.5" font-weight="700" fill="#334155">function</text>
+<text x="809.0" y="126" text-anchor="middle" font-size="10.5" font-weight="700" fill="#334155">M6</text>
+<text x="809.0" y="139" text-anchor="middle" font-size="10.5" font-weight="700" fill="#334155">detectability</text>
+<text x="895.0" y="126" text-anchor="middle" font-size="10.5" font-weight="700" fill="#334155">M7</text>
+<text x="895.0" y="139" text-anchor="middle" font-size="10.5" font-weight="700" fill="#334155">panel</text>
+<text x="238" y="172.0" text-anchor="end" font-size="12" font-weight="700" fill="#334155">A1</text>
+<text x="238" y="187.0" text-anchor="end" font-size="9.5" fill="#64748b">formation vs clearance</text>
+<rect x="252" y="152" width="82" height="48" rx="4" fill="#eef2f7" stroke="#e5e7eb"/>
+<text x="293.0" y="180.0" text-anchor="middle" font-size="11.5" font-weight="700" fill="#475569">0.00</text>
+<rect x="338" y="152" width="82" height="48" rx="4" fill="#0f766e" stroke="#e5e7eb"/>
+<text x="379.0" y="180.0" text-anchor="middle" font-size="11.5" font-weight="700" fill="#ffffff">1.00</text>
+<rect x="424" y="152" width="82" height="48" rx="4" fill="#0f766e" stroke="#e5e7eb"/>
+<text x="465.0" y="180.0" text-anchor="middle" font-size="11.5" font-weight="700" fill="#ffffff">1.00</text>
+<rect x="510" y="152" width="82" height="48" rx="4" fill="#0f766e" stroke="#e5e7eb"/>
+<text x="551.0" y="180.0" text-anchor="middle" font-size="11.5" font-weight="700" fill="#ffffff">1.00</text>
+<rect x="596" y="152" width="82" height="48" rx="4" fill="#e3ecf0" stroke="#e5e7eb"/>
+<text x="637.0" y="180.0" text-anchor="middle" font-size="11.5" font-weight="700" fill="#475569">0.05</text>
+<rect x="682" y="152" width="82" height="48" rx="4" fill="#eef2f7" stroke="#e5e7eb"/>
+<text x="723.0" y="180.0" text-anchor="middle" font-size="11.5" font-weight="700" fill="#475569">0.00</text>
+<rect x="768" y="152" width="82" height="48" rx="4" fill="#e3ecf0" stroke="#e5e7eb"/>
+<text x="809.0" y="180.0" text-anchor="middle" font-size="11.5" font-weight="700" fill="#475569">0.05</text>
+<rect x="854" y="152" width="82" height="48" rx="4" fill="#0f766e" stroke="#e5e7eb"/>
+<text x="895.0" y="180.0" text-anchor="middle" font-size="11.5" font-weight="700" fill="#ffffff">1.00</text>
+<text x="238" y="224.0" text-anchor="end" font-size="12" font-weight="700" fill="#334155">A2</text>
+<text x="238" y="239.0" text-anchor="end" font-size="9.5" fill="#64748b">burden vs detectability</text>
+<rect x="252" y="204" width="82" height="48" rx="4" fill="#eef2f7" stroke="#e5e7eb"/>
+<text x="293.0" y="232.0" text-anchor="middle" font-size="11.5" font-weight="700" fill="#475569">0.00</text>
+<rect x="338" y="204" width="82" height="48" rx="4" fill="#eef2f7" stroke="#e5e7eb"/>
+<text x="379.0" y="232.0" text-anchor="middle" font-size="11.5" font-weight="700" fill="#475569">0.00</text>
+<rect x="424" y="204" width="82" height="48" rx="4" fill="#0f766e" stroke="#e5e7eb"/>
+<text x="465.0" y="232.0" text-anchor="middle" font-size="11.5" font-weight="700" fill="#ffffff">1.00</text>
+<rect x="510" y="204" width="82" height="48" rx="4" fill="#0f766e" stroke="#e5e7eb"/>
+<text x="551.0" y="232.0" text-anchor="middle" font-size="11.5" font-weight="700" fill="#ffffff">1.00</text>
+<rect x="596" y="204" width="82" height="48" rx="4" fill="#eef2f7" stroke="#e5e7eb"/>
+<text x="637.0" y="232.0" text-anchor="middle" font-size="11.5" font-weight="700" fill="#475569">0.00</text>
+<rect x="682" y="204" width="82" height="48" rx="4" fill="#eef2f7" stroke="#e5e7eb"/>
+<text x="723.0" y="232.0" text-anchor="middle" font-size="11.5" font-weight="700" fill="#475569">0.00</text>
+<rect x="768" y="204" width="82" height="48" rx="4" fill="#0f766e" stroke="#e5e7eb"/>
+<text x="809.0" y="232.0" text-anchor="middle" font-size="11.5" font-weight="700" fill="#ffffff">1.00</text>
+<rect x="854" y="204" width="82" height="48" rx="4" fill="#0f766e" stroke="#e5e7eb"/>
+<text x="895.0" y="232.0" text-anchor="middle" font-size="11.5" font-weight="700" fill="#ffffff">1.00</text>
+<text x="238" y="276.0" text-anchor="end" font-size="12" font-weight="700" fill="#334155">A3</text>
+<text x="238" y="291.0" text-anchor="end" font-size="9.5" fill="#64748b">production vs persistence</text>
+<rect x="252" y="256" width="82" height="48" rx="4" fill="#eef2f7" stroke="#e5e7eb"/>
+<text x="293.0" y="284.0" text-anchor="middle" font-size="11.5" font-weight="700" fill="#475569">0.00</text>
+<rect x="338" y="256" width="82" height="48" rx="4" fill="#0f766e" stroke="#e5e7eb"/>
+<text x="379.0" y="284.0" text-anchor="middle" font-size="11.5" font-weight="700" fill="#ffffff">1.00</text>
+<rect x="424" y="256" width="82" height="48" rx="4" fill="#0f766e" stroke="#e5e7eb"/>
+<text x="465.0" y="284.0" text-anchor="middle" font-size="11.5" font-weight="700" fill="#ffffff">1.00</text>
+<rect x="510" y="256" width="82" height="48" rx="4" fill="#0f766e" stroke="#e5e7eb"/>
+<text x="551.0" y="284.0" text-anchor="middle" font-size="11.5" font-weight="700" fill="#ffffff">1.00</text>
+<rect x="596" y="256" width="82" height="48" rx="4" fill="#eef2f7" stroke="#e5e7eb"/>
+<text x="637.0" y="284.0" text-anchor="middle" font-size="11.5" font-weight="700" fill="#475569">0.00</text>
+<rect x="682" y="256" width="82" height="48" rx="4" fill="#e5edf2" stroke="#e5e7eb"/>
+<text x="723.0" y="284.0" text-anchor="middle" font-size="11.5" font-weight="700" fill="#475569">0.04</text>
+<rect x="768" y="256" width="82" height="48" rx="4" fill="#eef2f7" stroke="#e5e7eb"/>
+<text x="809.0" y="284.0" text-anchor="middle" font-size="11.5" font-weight="700" fill="#475569">0.00</text>
+<rect x="854" y="256" width="82" height="48" rx="4" fill="#0f766e" stroke="#e5e7eb"/>
+<text x="895.0" y="284.0" text-anchor="middle" font-size="11.5" font-weight="700" fill="#ffffff">1.00</text>
+<text x="238" y="328.0" text-anchor="end" font-size="12" font-weight="700" fill="#334155">A4</text>
+<text x="238" y="343.0" text-anchor="end" font-size="9.5" fill="#64748b">viable vs accumulated</text>
+<rect x="252" y="308" width="82" height="48" rx="4" fill="#eef2f7" stroke="#e5e7eb"/>
+<text x="293.0" y="336.0" text-anchor="middle" font-size="11.5" font-weight="700" fill="#475569">0.00</text>
+<rect x="338" y="308" width="82" height="48" rx="4" fill="#e3ecf0" stroke="#e5e7eb"/>
+<text x="379.0" y="336.0" text-anchor="middle" font-size="11.5" font-weight="700" fill="#475569">0.05</text>
+<rect x="424" y="308" width="82" height="48" rx="4" fill="#eef2f7" stroke="#e5e7eb"/>
+<text x="465.0" y="336.0" text-anchor="middle" font-size="11.5" font-weight="700" fill="#475569">0.00</text>
+<rect x="510" y="308" width="82" height="48" rx="4" fill="#e1ebef" stroke="#e5e7eb"/>
+<text x="551.0" y="336.0" text-anchor="middle" font-size="11.5" font-weight="700" fill="#475569">0.06</text>
+<rect x="596" y="308" width="82" height="48" rx="4" fill="#0f766e" stroke="#e5e7eb"/>
+<text x="637.0" y="336.0" text-anchor="middle" font-size="11.5" font-weight="700" fill="#ffffff">1.00</text>
+<rect x="682" y="308" width="82" height="48" rx="4" fill="#eef2f7" stroke="#e5e7eb"/>
+<text x="723.0" y="336.0" text-anchor="middle" font-size="11.5" font-weight="700" fill="#475569">0.00</text>
+<rect x="768" y="308" width="82" height="48" rx="4" fill="#e3ecf0" stroke="#e5e7eb"/>
+<text x="809.0" y="336.0" text-anchor="middle" font-size="11.5" font-weight="700" fill="#475569">0.05</text>
+<rect x="854" y="308" width="82" height="48" rx="4" fill="#eef2f7" stroke="#e5e7eb"/>
+<text x="895.0" y="336.0" text-anchor="middle" font-size="11.5" font-weight="700" fill="#475569">0.00</text>
+<text x="238" y="380.0" text-anchor="end" font-size="12" font-weight="700" fill="#334155">A5</text>
+<text x="238" y="395.0" text-anchor="end" font-size="9.5" fill="#64748b">burden vs function</text>
+<rect x="252" y="360" width="82" height="48" rx="4" fill="#eef2f7" stroke="#e5e7eb"/>
+<text x="293.0" y="388.0" text-anchor="middle" font-size="11.5" font-weight="700" fill="#475569">0.00</text>
+<rect x="338" y="360" width="82" height="48" rx="4" fill="#eef2f7" stroke="#e5e7eb"/>
+<text x="379.0" y="388.0" text-anchor="middle" font-size="11.5" font-weight="700" fill="#475569">0.00</text>
+<rect x="424" y="360" width="82" height="48" rx="4" fill="#eaf0f4" stroke="#e5e7eb"/>
+<text x="465.0" y="388.0" text-anchor="middle" font-size="11.5" font-weight="700" fill="#475569">0.02</text>
+<rect x="510" y="360" width="82" height="48" rx="4" fill="#eef2f7" stroke="#e5e7eb"/>
+<text x="551.0" y="388.0" text-anchor="middle" font-size="11.5" font-weight="700" fill="#475569">0.00</text>
+<rect x="596" y="360" width="82" height="48" rx="4" fill="#eef2f7" stroke="#e5e7eb"/>
+<text x="637.0" y="388.0" text-anchor="middle" font-size="11.5" font-weight="700" fill="#475569">0.00</text>
+<rect x="682" y="360" width="82" height="48" rx="4" fill="#0f766e" stroke="#e5e7eb"/>
+<text x="723.0" y="388.0" text-anchor="middle" font-size="11.5" font-weight="700" fill="#ffffff">1.00</text>
+<rect x="768" y="360" width="82" height="48" rx="4" fill="#eef2f7" stroke="#e5e7eb"/>
+<text x="809.0" y="388.0" text-anchor="middle" font-size="11.5" font-weight="700" fill="#475569">0.00</text>
+<rect x="854" y="360" width="82" height="48" rx="4" fill="#0f766e" stroke="#e5e7eb"/>
+<text x="895.0" y="388.0" text-anchor="middle" font-size="11.5" font-weight="700" fill="#ffffff">1.00</text>
+<text x="238" y="438" text-anchor="end" font-size="10.5" font-weight="700" fill="#0f766e">resolved</text>
+<text x="238" y="454" text-anchor="end" font-size="10.5" fill="#94a3b8">not resolved</text>
+<rect x="250" y="428" width="4" height="10" fill="#eef2f7"/>
+<rect x="254" y="428" width="4" height="10" fill="#e8eff3"/>
+<rect x="258" y="428" width="4" height="10" fill="#e3ecf0"/>
+<rect x="262" y="428" width="4" height="10" fill="#dde8ec"/>
+<rect x="266" y="428" width="4" height="10" fill="#d7e5e9"/>
+<rect x="270" y="428" width="4" height="10" fill="#d1e2e5"/>
+<rect x="274" y="428" width="4" height="10" fill="#ccdfe2"/>
+<rect x="278" y="428" width="4" height="10" fill="#c6dcde"/>
+<rect x="282" y="428" width="4" height="10" fill="#c0d9db"/>
+<rect x="286" y="428" width="4" height="10" fill="#bbd5d7"/>
+<rect x="290" y="428" width="4" height="10" fill="#b5d2d4"/>
+<rect x="294" y="428" width="4" height="10" fill="#afcfd0"/>
+<rect x="298" y="428" width="4" height="10" fill="#a9cccd"/>
+<rect x="302" y="428" width="4" height="10" fill="#a4c9c9"/>
+<rect x="306" y="428" width="4" height="10" fill="#9ec5c6"/>
+<rect x="310" y="428" width="4" height="10" fill="#98c2c2"/>
+<rect x="314" y="428" width="4" height="10" fill="#93bfbf"/>
+<rect x="318" y="428" width="4" height="10" fill="#8dbcbb"/>
+<rect x="322" y="428" width="4" height="10" fill="#87b9b8"/>
+<rect x="326" y="428" width="4" height="10" fill="#81b6b4"/>
+<rect x="330" y="428" width="4" height="10" fill="#7cb2b1"/>
+<rect x="334" y="428" width="4" height="10" fill="#76afad"/>
+<rect x="338" y="428" width="4" height="10" fill="#70acaa"/>
+<rect x="342" y="428" width="4" height="10" fill="#6aa9a6"/>
+<rect x="346" y="428" width="4" height="10" fill="#65a6a3"/>
+<rect x="350" y="428" width="4" height="10" fill="#5fa39f"/>
+<rect x="354" y="428" width="4" height="10" fill="#599f9c"/>
+<rect x="358" y="428" width="4" height="10" fill="#549c98"/>
+<rect x="362" y="428" width="4" height="10" fill="#4e9995"/>
+<rect x="366" y="428" width="4" height="10" fill="#489691"/>
+<rect x="370" y="428" width="4" height="10" fill="#42938e"/>
+<rect x="374" y="428" width="4" height="10" fill="#3d8f8a"/>
+<rect x="378" y="428" width="4" height="10" fill="#378c87"/>
+<rect x="382" y="428" width="4" height="10" fill="#318983"/>
+<rect x="386" y="428" width="4" height="10" fill="#2c8680"/>
+<rect x="390" y="428" width="4" height="10" fill="#26837c"/>
+<rect x="394" y="428" width="4" height="10" fill="#208079"/>
+<rect x="398" y="428" width="4" height="10" fill="#1a7c75"/>
+<rect x="402" y="428" width="4" height="10" fill="#157972"/>
+<rect x="406" y="428" width="4" height="10" fill="#0f766e"/>
+<text x="250" y="452" font-size="9.5" fill="#64748b">0</text>
+<text x="410" y="452" font-size="9.5" fill="#64748b">1</text>
+<text x="40" y="484" font-size="11" fill="#475569">• Burden-only (M0) resolves nothing — confirms the central point.</text>
+<text x="40" y="502" font-size="11" fill="#475569">• Different breakers resolve different ambiguities; formation does not resolve detectability (A2, M1=0).</text>
+<text x="40" y="520" font-size="11" fill="#475569">• Blind spots: viability (A4) and functional execution (A5) are unresolved unless measured directly (M4, M5).</text>
+<text x="40" y="538" font-size="11" fill="#475569">• Even the combined panel (M7) misses A4 — no single design resolves the full latent space.</text>
+<text x="40" y="556" font-size="11" fill="#475569">• Failure mode: the time-course breaker (M3) degrades under high observation noise (score 1.00 to ~0.8).</text>
+<text x="489.0" y="604" text-anchor="middle" font-size="10" fill="#94a3b8">Supplementary · in silico measurement-design identifiability map · synthetic illustration of method/design behaviour, not a result; not biological parameters, not clinical claims.</text>
+</svg>

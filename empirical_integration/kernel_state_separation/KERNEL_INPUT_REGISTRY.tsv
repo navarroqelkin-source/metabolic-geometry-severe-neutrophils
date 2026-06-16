@@ -1,0 +1,2 @@
+source_id	layer	evidence_tier	matrix_path	metadata_path	n_samples	n_features	groups_available	include_in_kernel_analysis	reason
+Li_ST002477	metabolomics	Tier_1	tier1_li_st002477_metabolomics/outputs/LI_ST002477_intensity_matrix.tsv	tier1_li_st002477_metabolomics/LI_ST002477_SAMPLE_METADATA.tsv	75	287	Control;Mild;Severe	YES	real_matrix_with_provenance_and_QC

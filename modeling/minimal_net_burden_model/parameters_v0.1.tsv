@@ -1,0 +1,10 @@
+parameter_id	meaning	default_value	min_value	max_value	unit_or_scale	layer_link	claim_ceiling	notes
+F0	baseline_NET_formation_rate	1.0	0.1	5.0	arbitrary_units	NET_release_proteome;phosphoproteomics_signaling	formation_parameter_not_mechanism	Synthetic range for identifiability demonstration
+D0	degradation_capacity	1.0	0.1	5.0	arbitrary_units	clearance_degradation	clearance_parameter_not_mechanism	Synthetic range
+C0	systemic_clearance	1.0	0.1	5.0	arbitrary_units	clearance_degradation	clearance_parameter_not_mechanism	Synthetic range
+P0	spatial_persistence	0.0	0.0	3.0	arbitrary_units	spatial_tissue_context	locus_context_parameter	Synthetic range
+KR	composition_detectability	1.0	0.5	3.0	arbitrary_units	NET_release_proteome	measurement_model_parameter	Synthetic range
+B0	initial_NET_burden	0.0	0.0	5.0	arbitrary_units	NET_release_proteome	burden_initial_condition	Synthetic range
+noise_sd	observation_noise	0.0	0.0	0.5	arbitrary_units	observation_model	measurement_noise	Use zero for deterministic baseline
+
+# Values are synthetic and used for mathematical identifiability demonstration only.

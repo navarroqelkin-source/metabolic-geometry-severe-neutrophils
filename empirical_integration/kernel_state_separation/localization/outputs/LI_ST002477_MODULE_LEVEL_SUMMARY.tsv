@@ -1,0 +1,3 @@
+module	n_mapped_metabolites	n_significant_fdr	n_monotonic_up	n_monotonic_down	median_effect_control_severe	module_support_level	allowed_claim	prohibited_claim
+M05:GAPDH_glycolysis_PPP	31	22	4	7	0.1215	supported	module-level metabolic state association	pathway flux or causal mechanism
+(general_metabolic_state)	256	161	60	45	-0.0769	background_pool	module-level metabolic state association	pathway flux or causal mechanism

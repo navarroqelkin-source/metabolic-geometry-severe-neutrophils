@@ -1,0 +1,86 @@
+<svg viewBox="0 0 1000 620" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" role="img" aria-labelledby="t d">
+  <title id="t">Metabolite contributors and the glycolysis/PPP module (M05)</title>
+  <desc id="d">Descriptive localization of the severity-associated metabolic state in the human neutrophil metabolome (Li_ST002477). Panel a: filtering funnel 287 to 183 FDR-significant to 116 monotonic to 39 bootstrap-stable. Panel b: stable state-associated contributors (not validated biomarkers). Panel c: module M05 (glycolysis/PPP/central carbon) supported, 22 of 31 mapped metabolites significant. Interpretive limit: metabolic state, not flux; contributors, not validated biomarkers.</desc>
+
+  <rect x="0" y="0" width="1000" height="620" fill="#ffffff"/>
+
+  <!-- Title -->
+  <text x="500" y="32" text-anchor="middle" font-size="20" font-weight="700" fill="#1f2937">Metabolite contributors and the glycolysis/PPP module</text>
+  <text x="500" y="53" text-anchor="middle" font-size="12.5" fill="#6b7280">Descriptive localization of the severity-associated state · human neutrophil metabolome (Li_ST002477)</text>
+
+  <!-- ===== Panel a: filtering funnel ===== -->
+  <g>
+    <text x="60" y="86" font-size="13.5" font-weight="700" fill="#334155">a · Descriptive filtering of the metabolome</text>
+    <rect x="60" y="98" width="420" height="232" rx="8" fill="#fcfcfd" stroke="#e5e7eb"/>
+    <!-- bars centered at x=270 -->
+    <g>
+      <rect x="90" y="120" width="360" height="34" rx="4" fill="#0f766e"/>
+      <text x="270" y="142" text-anchor="middle" font-size="12" font-weight="700" fill="#ffffff">287 metabolites evaluated</text>
+
+      <rect x="155" y="166" width="230" height="34" rx="4" fill="#14b8a6"/>
+      <text x="270" y="188" text-anchor="middle" font-size="12" font-weight="700" fill="#ffffff">183 FDR-significant</text>
+
+      <rect x="197" y="212" width="146" height="34" rx="4" fill="#2dd4bf"/>
+      <text x="270" y="234" text-anchor="middle" font-size="12" font-weight="700" fill="#064e3b">116 monotonic</text>
+
+      <rect x="245" y="258" width="50" height="34" rx="4" fill="#99f6e4"/>
+      <text x="270" y="280" text-anchor="middle" font-size="11.5" font-weight="700" fill="#064e3b">39</text>
+      <text x="270" y="312" text-anchor="middle" font-size="11" fill="#475569">39 bootstrap-stable (descriptive, not a ranking)</text>
+    </g>
+  </g>
+
+  <!-- ===== Panel b: stable contributors ===== -->
+  <g>
+    <text x="520" y="86" font-size="13.5" font-weight="700" fill="#334155">b · Stable state-associated contributors</text>
+    <rect x="520" y="98" width="420" height="232" rx="8" fill="#fcfcfd" stroke="#e5e7eb"/>
+    <g font-size="11" fill="#0f766e">
+      <rect x="540" y="120" width="150" height="26" rx="13" fill="#ecfdf5" stroke="#5eead4"/><text x="615" y="137" text-anchor="middle">Fucose 1-phosphate</text>
+      <rect x="700" y="120" width="110" height="26" rx="13" fill="#ecfdf5" stroke="#5eead4"/><text x="755" y="137" text-anchor="middle">Thioproline</text>
+      <rect x="820" y="120" width="104" height="26" rx="13" fill="#ecfdf5" stroke="#5eead4"/><text x="872" y="137" text-anchor="middle">Hypoxanthine</text>
+      <rect x="540" y="156" width="166" height="26" rx="13" fill="#ecfdf5" stroke="#5eead4"/><text x="623" y="173" text-anchor="middle">Erythrose 4-phosphate</text>
+      <rect x="716" y="156" width="86" height="26" rx="13" fill="#ecfdf5" stroke="#5eead4"/><text x="759" y="173" text-anchor="middle">Anserine</text>
+      <rect x="812" y="156" width="120" height="26" rx="13" fill="#ecfdf5" stroke="#5eead4"/><text x="872" y="173" text-anchor="middle">Glucuronolactone</text>
+      <rect x="540" y="192" width="168" height="26" rx="13" fill="#ecfdf5" stroke="#5eead4"/><text x="624" y="209" text-anchor="middle">short-chain carnitines</text>
+    </g>
+    <text x="540" y="250" font-size="11" fill="#475569">Listed as descriptive, state-associated contributors —</text>
+    <text x="540" y="268" font-size="11" font-weight="700" fill="#0f766e">not validated biomarkers, not ranked by fold change.</text>
+    <text x="540" y="300" font-size="10.5" font-style="italic" fill="#64748b">No fold changes or rankings are shown beyond what the analysis outputs report.</text>
+  </g>
+
+  <!-- ===== Panel c: M05 module support ===== -->
+  <g>
+    <text x="60" y="368" font-size="13.5" font-weight="700" fill="#334155">c · Module M05 support (glycolysis / PPP / central carbon)</text>
+    <rect x="60" y="380" width="420" height="170" rx="8" fill="#fcfcfd" stroke="#e5e7eb"/>
+    <!-- donut 22/31 -->
+    <g transform="translate(150,465)">
+      <circle r="46" fill="none" stroke="#e5e7eb" stroke-width="16"/>
+      <!-- 22/31 = 0.71 of circumference; dasharray on r=46 circumference=289 -->
+      <circle r="46" fill="none" stroke="#0f766e" stroke-width="16" stroke-dasharray="205 84" transform="rotate(-90)"/>
+      <text x="0" y="-2" text-anchor="middle" font-size="18" font-weight="700" fill="#0f766e">22/31</text>
+      <text x="0" y="16" text-anchor="middle" font-size="9.5" fill="#6b7280">mapped sig.</text>
+    </g>
+    <g font-size="11.5" fill="#475569">
+      <text x="230" y="430">glycolysis</text>
+      <text x="230" y="452">pentose phosphate pathway (PPP)</text>
+      <text x="230" y="474">central carbon · redox-linked</text>
+      <text x="230" y="504" font-size="10.5" fill="#64748b">M08 (lipid mediators) not represented in this panel</text>
+    </g>
+  </g>
+
+  <!-- ===== Panel d: interpretive limit + key sentence ===== -->
+  <g>
+    <text x="520" y="368" font-size="13.5" font-weight="700" fill="#334155">d · What this localizes — and what it does not</text>
+    <rect x="520" y="380" width="420" height="170" rx="8" fill="#f0fdfa" stroke="#99f6e4"/>
+    <text x="540" y="410" font-size="11.5" fill="#0f766e" font-style="italic">"Metabolic contributors localize the severity-associated</text>
+    <text x="540" y="428" font-size="11.5" fill="#0f766e" font-style="italic">state toward central carbon, glycolysis/PPP and redox-</text>
+    <text x="540" y="446" font-size="11.5" fill="#0f766e" font-style="italic">linked metabolism, without proving pathway flux."</text>
+    <line x1="540" y1="462" x2="920" y2="462" stroke="#cbeee7" stroke-width="1"/>
+    <text x="540" y="484" font-size="11" font-weight="700" fill="#334155">Interpretive limit:</text>
+    <text x="540" y="504" font-size="11" fill="#475569">metabolic state, not flux · contributors, not validated</text>
+    <text x="540" y="522" font-size="11" fill="#475569">biomarkers · no causal mechanism</text>
+  </g>
+
+  <!-- Footer -->
+  <line x1="60" y1="575" x2="940" y2="575" stroke="#e5e7eb" stroke-width="1"/>
+  <text x="500" y="596" text-anchor="middle" font-size="10.5" fill="#94a3b8">Figure 4 · descriptive localization of a metabolic state · no flux, no validated biomarker, no causal claim</text>
+</svg>

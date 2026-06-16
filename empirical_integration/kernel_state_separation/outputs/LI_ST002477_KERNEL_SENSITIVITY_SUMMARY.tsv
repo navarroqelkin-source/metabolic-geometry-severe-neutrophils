@@ -1,0 +1,4 @@
+comparison	mmd_p_min	mmd_p_max	mmd_sig_fraction_across_bandwidths	energy_p	energy_p_outlier_LOO	mmd_energy_agree	outlier_robustness	verdict
+Control_vs_Mild	0.001	0.001	1.0	0.001	0.001	YES	STABLE	SUPPORTED
+Control_vs_Severe	0.001	0.001	1.0	0.001	0.001	YES	STABLE	SUPPORTED
+Mild_vs_Severe	0.001	0.001	1.0	0.001	0.001	YES	STABLE	SUPPORTED

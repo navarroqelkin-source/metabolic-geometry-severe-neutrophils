@@ -1,0 +1,4 @@
+source_id	file_name	sheet_name	n_rows	n_columns	column_names	table_interpretation	parse_status	required_action
+Chapman_PXD011796	Table_6.XLSX	Citrullination	95	8	Protein Accession; Protein name; Peptide; A23187 (n=); PMA (n=)	citrullinated peptides per protein with NET-induction stimulus counts	PARSE_TARGET	parse citrullinated entries
+Chapman_PXD011796	Table_6.XLSX	Acetylation	87	6	Protein Accession; Protein name; Peptide; PTM	Acetylation PTM (out of scope)	CONTEXT_ONLY	none
+Chapman_PXD011796	Table_6.XLSX	Methylation	34	8	Protein Accession; Protein name; Peptide; PTM	Methylation PTM (out of scope)	CONTEXT_ONLY	none
