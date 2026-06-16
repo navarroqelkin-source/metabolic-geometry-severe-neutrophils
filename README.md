@@ -4,6 +4,8 @@ Reproducible code, derived data and figures for the manuscript
 **"The metabolic geometry of severe human neutrophils: redox–carbon state separation and the limits of
 inferring effector function"** (Hypothesis and Theory).
 
+Archived on Zenodo: https://doi.org/10.5281/zenodo.20717146 · Repository: https://github.com/navarroqelkin-source/metabolic-geometry-severe-neutrophils
+
 > Public datasets only. No patient-level or private data. This repository contains analysis code, the
 > manuscript, figures, and **derived** result tables — not raw third-party data (obtain those from the
 > accessions below).

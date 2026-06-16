@@ -2,13 +2,13 @@ cff-version: 1.2.0
 message: "If you use this software/data, please cite the article and this archive."
 title: "The metabolic geometry of severe human neutrophils: redox-carbon state separation and the limits of inferring effector function - analysis code and derived data"
 version: "v0.8.2"
-date-released: "TODO_PI_INPUT_REQUIRED"
+date-released: "2026-06-15"
 license: "CC-BY-4.0"
-doi: "TODO_PI_INPUT_REQUIRED"   # Zenodo version DOI, minted at release
+doi: "10.5281/zenodo.20717146"
 authors:
-  - family-names: "TODO_PI_INPUT_REQUIRED"
-    given-names: "TODO_PI_INPUT_REQUIRED"
-    orcid: "TODO_PI_INPUT_REQUIRED"
+  - family-names: "Navarro Q."
+    given-names: "Elkin"
+    # orcid: "https://orcid.org/XXXX-XXXX-XXXX-XXXX"  # TODO: add ORCID and any co-authors
 keywords:
   - neutrophil
   - neutrophil metabolism

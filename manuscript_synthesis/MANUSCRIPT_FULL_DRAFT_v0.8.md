@@ -479,13 +479,17 @@ The datasets re-analysed or referenced here are public:
 - Phosphosignaling: PRIDE PXD029046 (Yedehalli Thimmappa et al., Cell Tissue Res 2022;389(2):241-257;
   DOI 10.1007/s00441-022-03636-7).
 
-Derived tables and reproducible analysis outputs supporting the figures are archived in a public Zenodo
-release (tag v0.8-frontiers-submission; DOI [Zenodo DOI to be inserted at submission]).
+Derived tables and reproducible analysis outputs supporting the figures are archived on Zenodo
+(DOI: 10.5281/zenodo.20717146) and on GitHub
+(https://github.com/navarroqelkin-source/metabolic-geometry-severe-neutrophils).
 
 ## Code availability
 The analysis scripts, validation utilities, figure-generation materials, the minimal NET-burden observation
-model and the in silico measurement-design map are archived in a public repository and deposited in Zenodo
-(release tag v0.8-frontiers-submission; DOI [Zenodo DOI to be inserted at submission]).
+model and the in silico measurement-design map are openly available on GitHub
+(https://github.com/navarroqelkin-source/metabolic-geometry-severe-neutrophils) and archived on Zenodo
+(DOI: 10.5281/zenodo.20717146).
+The synthetic model and the measurement-design map are included only as supplementary illustrations of
+method/design behaviour, not as results.
 The synthetic model and the measurement-design map are included only as supplementary illustrations of
 method/design behaviour, not as results.
 
