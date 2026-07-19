@@ -1,0 +1,42 @@
+SUPERSEDED PACKAGE - DO NOT DISTRIBUTE, CITE OR ACT ON
+=======================================================
+Notice date: 2026-07-19
+
+This archive contains a withdrawn scientific claim. The archive itself has NOT been
+modified, deleted or repacked - it is preserved for traceability. This sidecar file
+records its status.
+
+WITHDRAWN:
+  - cross-pair ordering  Control-Severe > Control-Mild > Mild-Severe
+  - dominance            Control-Severe is the largest / dominant contrast
+  - metric agreement     MMD and energy distance "agree" on that ordering
+
+WHY:
+  1. MMD refit the median-heuristic bandwidth PER PAIR, so the three magnitudes are
+     defined in three different RKHS and are not mutually comparable.
+  2. Energy distance used the biased V-statistic (m^2 / n^2 denominators including the
+     zero diagonal). The finite-sample correction A_X/m + A_Y/n differs per pair with
+     group sizes 18/30/26, does not cancel in an ordering, and its DIRECTION is unknown
+     without the within-group dispersions.
+  3. The frozen V1.2 terminal rule turns on the word "largest" and is therefore
+     NOT_EVALUABLE - the gate could not be executed. This is not a negative result
+     about the data.
+
+STILL VALID:
+  Within-pair distributional discrepancy; within-pair permutation significance, labelled
+  conditional/diagnostic only; leave-one-out stability of an individual contrast.
+
+IF YOU RECEIVED THIS ARCHIVE:
+  Please do not cite or circulate the ordering or Control-Severe-dominance statements.
+  Pairwise distributional discrepancies remain describable. A corrected, independently
+  audited package will follow. The earlier archive is deliberately NOT being deleted or
+  silently replaced.
+
+AUTHORITATIVE RECORD:
+  NOTICE_SCIENTIFIC_SUPERSESSION_2026-07-19.md   (repository root)
+  empirical_integration/li_st002477_source_adjusted/
+      LI_ST002477_ORDERING_CLAIM_SUPERSESSION_REGISTRY.md
+      LI_ST002477_ENERGY_BIAS_DIRECTION_CORRECTION.md
+
+STATUS: independent metric audit pending; manuscript and figure editing on hold;
+        distribution blocked; post-results metric repair not yet authorised.

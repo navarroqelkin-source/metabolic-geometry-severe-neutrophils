@@ -1,3 +1,20 @@
+> # ⚠️ SCIENTIFIC SUPERSESSION NOTICE — 2026-07-19
+>
+> **A central claim in this repository has been withdrawn by the authors.** The
+> severity-ordering claim (Control-Severe > Control-Mild > Mild-Severe), the statement that
+> Control-Severe is the largest/dominant contrast, and the statement that the two metrics agree
+> on that ordering are **not supported** and must not be cited or reused.
+>
+> Cause: the MMD bandwidth was pair-specific (three different RKHS, so the three magnitudes are
+> not mutually comparable) and the energy distance used a biased V-statistic whose per-pair bias
+> does not cancel in an ordering and whose direction is indeterminate before the within-group
+> dispersions are computed.
+>
+> Statements about a **single** pairwise contrast are unaffected. Nothing has been deleted;
+> history is preserved. Full detail: **[NOTICE_SCIENTIFIC_SUPERSESSION_2026-07-19.md](NOTICE_SCIENTIFIC_SUPERSESSION_2026-07-19.md)**
+>
+> An independent metric audit is underway. A corrected package will follow.
+
 # The metabolic geometry of severe human neutrophils — analysis code and derived data
 
 Reproducible code, derived data and figures for the manuscript

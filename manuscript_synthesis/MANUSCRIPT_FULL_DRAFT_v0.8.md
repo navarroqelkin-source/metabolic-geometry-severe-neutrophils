@@ -1,3 +1,15 @@
+> # ⚠️ SUPERSEDED CLAIM — READ BEFORE CITING (notice dated 2026-07-19)
+>
+> The severity-ordering claim in the Abstract and Results of this draft
+> ("severity-ordered ... largest separation between Control and Severe"; "agreed 3/3") is
+> **withdrawn**. The MMD bandwidth was pair-specific, placing the three magnitudes in three
+> different RKHS; the energy distance used a biased V-statistic whose per-pair bias does not
+> cancel in an ordering. The preregistered terminal rule turns on the word "largest" and is
+> therefore **not evaluable** - this is not a negative result about the data.
+>
+> Per-pair distributional discrepancies remain describable. Cross-pair magnitude comparison does
+> not. See [NOTICE_SCIENTIFIC_SUPERSESSION_2026-07-19.md](../NOTICE_SCIENTIFIC_SUPERSESSION_2026-07-19.md).
+
 # The metabolic geometry of severe human neutrophils: redox–carbon state separation and the limits of inferring effector function
 
 *A stock-like observable cannot identify the flows that generate it; each molecular layer measures a

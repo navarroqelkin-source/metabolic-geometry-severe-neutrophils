@@ -1,0 +1,102 @@
+# SCIENTIFIC SUPERSESSION NOTICE — 2026-07-19
+
+**A central claim in the material published in this repository has been withdrawn by the
+authors.** This notice is issued in the same place the claim was published. Nothing is being
+deleted: the affected files and the commit history are preserved so the correction is traceable.
+
+## 1. What is withdrawn
+
+```
+Control–Severe > Control–Mild > Mild–Severe          cross-pair ordering
+Control–Severe is the largest / dominant contrast    dominance
+MMD and energy distance agree on that ordering       metric agreement
+```
+
+These appear in `manuscript_synthesis/MANUSCRIPT_FULL_DRAFT_v0.8.md` (Abstract and Results),
+in Figure 3 (`.svg` and the exported `.pdf`), in
+`empirical_integration/kernel_state_separation/localization/LI_ST002477_LOCALIZATION_REPORT.md`,
+and in the two `chapman_li_evidence_bridge` files that label the ordering "kernel SUPPORTED".
+
+## 2. Why
+
+Two defects in the implemented estimators, both found after the results were opened:
+
+1. **The MMD bandwidth was pair-specific.** The Gaussian median heuristic was recomputed
+   separately for each pairwise comparison, so the three MMD values are defined in three
+   different reproducing-kernel Hilbert spaces. Each pairwise test remains interpretable inside
+   its own kernel; the three magnitudes are not comparable to one another.
+
+2. **The energy distance used the biased V-statistic.** Denominators `m²` and `n²` including the
+   zero diagonal, rather than the unbiased `m(m−1)` and `n(n−1)`. The finite-sample correction is
+
+   ```
+   E_V − E_U = A_X/m + A_Y/n
+   ```
+
+   where `A` is the mean within-group pairwise distance excluding the diagonal. This term differs
+   per comparison because the groups are unequal in size (Control 18, Mild 30, Severe 26), so it
+   does not cancel when magnitudes are ranked against each other. **The signs of both
+   differential-bias terms are indeterminate before the within-group dispersions are computed;
+   no prior ordering of `A_C`, `A_M`, `A_S` is assumed.**
+
+Consequently the preregistered terminal decision rule, which turns on the word *"largest"*,
+presupposes a cross-pair comparison that neither implemented estimator licenses.
+
+```
+PREREGISTERED_TERMINAL_GATE = NOT_EVALUABLE_DUE_TO_METRIC_SPECIFICATION_DEFECT
+```
+
+**This is not a negative finding about the data.** The gate could not be executed. The
+preregistration worked as intended: it made the hidden dependency visible instead of allowing it
+to pass as a result.
+
+## 3. What remains available
+
+- Within-pair distributional discrepancy statistics, each inside its own kernel.
+- Within-pair energy-distance values as descriptive statistics.
+- Leave-one-out stability of an individual pairwise contrast.
+- Fixed-product label-permutation diagnostics.
+
+**The diagnostic permutation values do not constitute independent covariate-adjusted
+significance tests.** The source-adjusted matrix was produced by a model that included the
+clinical labels, so independent exchangeability is not justified.
+
+No licensed cross-pair magnitude comparison. No dominant-contrast claim.
+
+Permitted formulation:
+
+> The three clinical contrasts produced pairwise distributional discrepancies under the
+> statistics used. The relative magnitude of those discrepancies across pairs was not
+> established by the estimators executed.
+
+## 4. What readers and users of this repository should do
+
+- **Do not cite or reuse** the ordering, the Control–Severe dominance statement, or the
+  two-metric agreement statement.
+- Statements about a *single* pairwise contrast are unaffected.
+- The Zenodo deposit `10.5281/zenodo.20717146` archives the same material and carries the same
+  withdrawn claim. A supersession note is being added there; the deposit is **not** being
+  deleted.
+- If you have built on the ordering claim, please contact the corresponding author.
+
+## 5. Status
+
+```
+INDEPENDENT_METRIC_AUDIT    commissioned, read-only, outcome not prejudged
+MANUSCRIPT_REPAIR           HOLD
+FIGURE_REPAIR               HOLD
+PUBLIC_REPLACEMENT          HOLD
+CORRECTED_PACKAGE           will follow after the audit
+GIT_HISTORY                 preserved; no rebase, no force-push, nothing deleted
+```
+
+A repair using the unbiased U-statistic is permitted only **after** the independent audit, as a
+declared post-hoc transparent sensitivity analysis. It can never retroactively restore the
+preregistration.
+
+## 6. Provenance of this correction
+
+The defects were found by internal post-results audit and confirmed under independent review.
+The full technical record, including the withdrawn intermediate positions and the corrections
+applied to those, is maintained in the working repository and will accompany the corrected
+package.
