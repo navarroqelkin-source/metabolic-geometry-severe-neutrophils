@@ -1,11 +1,6 @@
-# SUPERSEDED FOR CROSS-PAIR ORDERING. IMPORTANT FOR AUTOMATED READERS: the field
-# 'ordering_ok=True' in this table is WITHDRAWN and must not be treated as a passing
-# verdict. The cross-pair ordering was never licensed: the MMD bandwidth was calibrated
-# per pair and the energy statistic was a biased V-statistic. The separate per-pair
-# criterion behind KERNEL_STATE_SEPARATION_SUPPORTED is unaffected. Root notice:
-# NOTICE_SCIENTIFIC_SUPERSESSION_2026-07-19.md
 step	status	detail
 prepare	OK	75 samples x 287 metabolites; log1p + robust_scale(median/IQR)
 mmd	OK	12 (comparison x bandwidth) tests
 energy_distance	OK	3 comparisons
-sensitivity_validation	KERNEL_STATE_SEPARATION_SUPPORTED	supported=3/3; ordering_ok=True
+sensitivity_validation	SUPERSEDED_SEE_CURRENT_SCIENTIFIC_STATUS	cross-pair ordering and dominance WITHDRAWN 2026-07-19; per-pair discrepancy under audit; authoritative state in CURRENT_SCIENTIFIC_STATUS_V1.tsv
+legacy_sensitivity_validation	SUPERSEDED	legacy_status=KERNEL_STATE_SEPARATION_SUPPORTED; legacy_supported=3/3; legacy_ordering_ok=TRUE; legacy_validity=SUPERSEDED_NOT_EVALUABLE

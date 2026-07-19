@@ -5,8 +5,10 @@
 """04 — Sensitivity, agreement and final separation verdict.
 
 Assesses: bandwidth sensitivity (MMD p across scales), MMD/energy agreement, permutation budget,
-severity ordering (Control_vs_Severe stronger than Control_vs_Mild), simple outlier robustness
-(leave-one-out on the most extreme sample per group for energy distance). Writes the sensitivity
+severity ordering (Control_vs_Severe stronger than Control_vs_Mild), a MAX-NORM OUTLIER STRESS TEST
+(NOT exhaustive leave-one-out: exactly one maximum-L2-norm sample is removed from EACH group
+simultaneously, and energy distance is recomputed once. It does not support any claim of the
+form 'stable to removing any single sample'.). Writes the sensitivity
 summary, consolidated KERNEL_TEST_RESULTS.tsv, and KERNEL_VALIDATION_REPORT.md with a final status.
 """
 import numpy as np
@@ -149,14 +151,14 @@ def main():
             f"- **{r['comparison']}**: MMD sig in "
             f"{r['mmd_sig_fraction_across_bandwidths']} of bandwidths "
             f"(p∈[{r['mmd_p_min']},{r['mmd_p_max']}]); energy p={r['energy_p']} "
-            f"(LOO p={r['energy_p_outlier_LOO']}, {r['outlier_robustness']}); "
+            f"(max-norm stress p={r['energy_p_outlier_LOO']}, {r['outlier_robustness']}); "
             f"agree={r['mmd_energy_agree']} → {r['verdict']}")
     lines += [
         "", "## Sensitivity",
         f"- Severity ordering (Control_vs_Severe MMD ≥ Control_vs_Mild MMD): "
         f"{'YES' if ordering_ok else 'NO'}",
         f"- MMD/energy agreement: {sum(1 for r in sens_rows if r['mmd_energy_agree']=='YES')}/3 comparisons",
-        f"- Outlier robustness (LOO): {sum(1 for r in sens_rows if r['outlier_robustness']=='STABLE')}/3 stable",
+        f"- Max-norm outlier stress test (NOT exhaustive LOO): {sum(1 for r in sens_rows if r['outlier_robustness']=='STABLE')}/3 stable",
         "", "## Claim ceiling",
         f"- Allowed: {K.ALLOWED}.",
         f"- Prohibited: {K.PROHIBITED}.",

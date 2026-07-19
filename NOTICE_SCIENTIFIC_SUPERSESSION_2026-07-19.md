@@ -13,7 +13,40 @@ The correction is issued in the same place the claim was published. Nothing is b
 Control–Severe > Control–Mild > Mild–Severe          cross-pair ordering
 Control–Severe is the largest / dominant contrast    dominance
 MMD and energy distance agree on that ordering       metric agreement
+"stable to removing any single sample"               exhaustive leave-one-out  [added 2026-07-19]
 ```
+
+**The fourth item is independent of the other three and of both estimator defects.** The published
+analysis did not perform exhaustive leave-one-out. `04_kernel_sensitivity_report.py` removes
+exactly **one** maximum-L2-norm sample from **each** group simultaneously and recomputes the
+energy distance once. That is a max-norm outlier stress test. It cannot support "stable to
+removing any single sample", and the field name `energy_p_outlier_LOO` and the report line
+"Outlier robustness (LOO): 3/3 stable" both overstate what was run.
+
+```
+RAW75_EXHAUSTIVE_LOO_CLAIM = WITHDRAWN
+ACTUAL_PROCEDURE           = ONE_MAX_NORM_SAMPLE_REMOVED_PER_GROUP
+```
+
+An exhaustive 74-fold leave-one-out **was** executed — but in the later source-adjusted analysis,
+on a different matrix with a different control group size. It does not retroactively validate the
+published claim.
+
+## 1b. Two distinct analyses, not one
+
+The published analysis and the later source-adjusted gate are separate, and must not be conflated:
+
+| | published (raw) | source-adjusted gate |
+|---|---|---|
+| samples | Control 19 / Mild 30 / Severe 26 | Control 18 / Mild 30 / Severe 26 |
+| transform | `log1p` | none (11,886 of 21,238 cells negative) |
+| scaling | robust median / IQR | robust median / MAD |
+| robustness | one max-norm sample per group | exhaustive 74-fold |
+| features | 287 | 276 primary, 282 sensitivity |
+
+The estimator defects below are qualitative and apply to both. The **finite-sample bias terms are
+not identical**, because they depend on group sizes, and the sizes differ. Where this notice
+quotes 18/30/26 it refers to the source-adjusted arm.
 
 These appear in `manuscript_synthesis/MANUSCRIPT_FULL_DRAFT_v0.8.md` (Abstract and Results),
 in Figure 3 (`.svg` and the exported `.pdf`), in

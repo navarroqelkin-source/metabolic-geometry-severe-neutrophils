@@ -4,6 +4,11 @@
 > unaffected, subject to the limitations in the root notice.
 > See `NOTICE_SCIENTIFIC_SUPERSESSION_2026-07-19.md`.
 
+> **ALSO WITHDRAWN (2026-07-19): the leave-one-out claim.** The line below reporting
+> "Outlier robustness (LOO): 3/3 stable" describes a MAX-NORM STRESS TEST, not exhaustive
+> leave-one-out: one maximum-L2-norm sample was removed from each group simultaneously and the
+> energy distance recomputed once. It cannot support "stable to removing any single sample".
+
 # Kernel State Separation — Validation Report
 
 Final status: **KERNEL_STATE_SEPARATION_SUPPORTED**

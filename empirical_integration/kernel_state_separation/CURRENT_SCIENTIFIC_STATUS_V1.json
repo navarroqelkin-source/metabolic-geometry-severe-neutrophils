@@ -1,0 +1,92 @@
+{
+  "notice_date": "2026-07-19",
+  "authoritative_source": "CURRENT_SCIENTIFIC_STATUS_V1.tsv",
+  "root_notice": "NOTICE_SCIENTIFIC_SUPERSESSION_2026-07-19.md",
+  "arms_are_distinct_analyses": {
+    "raw75": {
+      "n": "Control 19 / Mild 30 / Severe 26",
+      "transform": "log1p",
+      "scaling": "robust median/IQR",
+      "loo": "one max-L2-norm sample removed per group"
+    },
+    "adjusted74": {
+      "n": "Control 18 / Mild 30 / Severe 26",
+      "transform": "none",
+      "scaling": "robust median/MAD",
+      "loo": "exhaustive 74-fold",
+      "features": "276 primary / 282 sensitivity (planned 287)"
+    }
+  },
+  "withdrawn": [
+    "cross_pair_ordering",
+    "dominant_contrast",
+    "metric_agreement_on_order",
+    "raw75_exhaustive_loo_claim"
+  ],
+  "legacy_fields_retained_as_superseded": [
+    "ordering_ok=True",
+    "KERNEL_STATE_SEPARATION_SUPPORTED"
+  ],
+  "rows": [
+    {
+      "analysis_arm": "raw75",
+      "analysis_scope": "cross_pair_ordering",
+      "current_status": "SUPERSEDED_NOT_EVALUABLE",
+      "note": "pair-specific MMD bandwidth; energy V-statistic"
+    },
+    {
+      "analysis_arm": "raw75",
+      "analysis_scope": "dominant_contrast",
+      "current_status": "SUPERSEDED_NOT_EVALUABLE",
+      "note": "cross-pair magnitude comparison not licensed"
+    },
+    {
+      "analysis_arm": "raw75",
+      "analysis_scope": "metric_agreement_on_order",
+      "current_status": "SUPERSEDED_NOT_EVALUABLE",
+      "note": "agreement on an unlicensed ordering is not a quantity"
+    },
+    {
+      "analysis_arm": "raw75",
+      "analysis_scope": "pairwise_discrepancy",
+      "current_status": "AUDIT_PENDING_UNADJUSTED_ASSOCIATION",
+      "note": "no covariate adjustment; age/sex/collection-time/treatment uncontrolled"
+    },
+    {
+      "analysis_arm": "raw75",
+      "analysis_scope": "outlier_robustness",
+      "current_status": "ONE_MAX_NORM_SAMPLE_REMOVED_PER_GROUP",
+      "note": "NOT exhaustive leave-one-out; see LOO_CLAIM_CORRECTION"
+    },
+    {
+      "analysis_arm": "adjusted74",
+      "analysis_scope": "cross_pair_ordering",
+      "current_status": "SUPERSEDED_NOT_EVALUABLE",
+      "note": "same two estimator defects"
+    },
+    {
+      "analysis_arm": "adjusted74",
+      "analysis_scope": "pairwise_discrepancy",
+      "current_status": "DESCRIPTIVE_AUDIT_PENDING",
+      "note": "source-adjusted product, not independent adjustment"
+    },
+    {
+      "analysis_arm": "adjusted74",
+      "analysis_scope": "label_permutations",
+      "current_status": "NON_EXACT_LABEL_INFORMED_DIAGNOSTIC",
+      "note": "source model contained COVID status and status-by-covariate interactions"
+    },
+    {
+      "analysis_arm": "adjusted74",
+      "analysis_scope": "exhaustive_loo_74",
+      "current_status": "EXECUTED_BUT_ON_A_DIFFERENT_ANALYSIS",
+      "note": "does not retroactively validate the raw75 robustness claim"
+    },
+    {
+      "analysis_arm": "both",
+      "analysis_scope": "metric_repair",
+      "current_status": "HOLD",
+      "note": "energy U and global-kernel MMD not authorised until the independent audit closes"
+    }
+  ]
+}
