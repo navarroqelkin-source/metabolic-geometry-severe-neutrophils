@@ -1,3 +1,7 @@
+# SUPERSEDED FOR CROSS-PAIR ORDERING: strings emitted by this script that describe a
+# severity ordering, or Control_vs_Severe as stronger/dominant, are WITHDRAWN and propagate
+# into generated reports. Per-pair criteria are unaffected.
+# See NOTICE_SCIENTIFIC_SUPERSESSION_2026-07-19.md at the repository root.
 """04 — Sensitivity, agreement and final separation verdict.
 
 Assesses: bandwidth sensitivity (MMD p across scales), MMD/energy agreement, permutation budget,

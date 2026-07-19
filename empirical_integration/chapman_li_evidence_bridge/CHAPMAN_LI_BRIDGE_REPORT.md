@@ -1,3 +1,9 @@
+> **SUPERSEDED FOR CROSS-PAIR ORDERING.** Do not use this document to rank the three clinical
+> contrasts against each other, to support Control-Severe dominance, or to support agreement
+> between MMD and energy distance. Statements confined to a single pairwise contrast are
+> unaffected, subject to the limitations in the root notice.
+> See `NOTICE_SCIENTIFIC_SUPERSESSION_2026-07-19.md`.
+
 # Chapman–Li Evidence-Tiered Bridge Report
 
 This bridge is not a sample-level integration. It is an evidence-tiered synthesis linking

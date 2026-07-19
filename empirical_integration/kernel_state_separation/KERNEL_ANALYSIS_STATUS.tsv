@@ -1,3 +1,9 @@
+# SUPERSEDED FOR CROSS-PAIR ORDERING. IMPORTANT FOR AUTOMATED READERS: the field
+# 'ordering_ok=True' in this table is WITHDRAWN and must not be treated as a passing
+# verdict. The cross-pair ordering was never licensed: the MMD bandwidth was calibrated
+# per pair and the energy statistic was a biased V-statistic. The separate per-pair
+# criterion behind KERNEL_STATE_SEPARATION_SUPPORTED is unaffected. Root notice:
+# NOTICE_SCIENTIFIC_SUPERSESSION_2026-07-19.md
 step	status	detail
 prepare	OK	75 samples x 287 metabolites; log1p + robust_scale(median/IQR)
 mmd	OK	12 (comparison x bandwidth) tests

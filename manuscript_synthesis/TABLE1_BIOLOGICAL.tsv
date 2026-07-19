@@ -1,3 +1,6 @@
+# SUPERSEDED FOR CROSS-PAIR ORDERING - do not use this file to rank the three clinical
+# contrasts against each other or to support Control-Severe dominance. See the root notice
+# NOTICE_SCIENTIFIC_SUPERSESSION_2026-07-19.md
 layer	source	evidence_level	cell_species_disease	what_it_measures	what_we_found	what_it_cannot_conclude
 Metabolism	Li_ST002477	measured quantitative result (re-analysed here)	human neutrophils, COVID-19	metabolic state in human neutrophils (287 metabolites × 75 biological samples)	severity-separable metabolic state (Control/Mild/Severe distinguishable; p~0.001; Control-Severe largest; glycolysis/PPP contributors)	metabolic flux; causal mechanism; clinical prediction
 NET/release material	Chapman_PXD011796	structured compositional evidence (parsed, not re-measured)	human, RA/SLE	released proteins and their modifications	752 structured proteins in effector-material modules; citrullination/acetylation/methylation; histone H3 across PTM entries; MPO methylated	NETosis rate; clearance; enzyme activity; same-residue PTM co-occurrence

@@ -1,3 +1,9 @@
+> **SUPERSEDED FOR CROSS-PAIR ORDERING.** Do not use this document to rank the three clinical
+> contrasts against each other, to support Control-Severe dominance, or to support agreement
+> between MMD and energy distance. Statements confined to a single pairwise contrast are
+> unaffected, subject to the limitations in the root notice.
+> See `NOTICE_SCIENTIFIC_SUPERSESSION_2026-07-19.md`.
+
 # Kernel State Separation — Validation Report
 
 Final status: **KERNEL_STATE_SEPARATION_SUPPORTED**

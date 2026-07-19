@@ -1,3 +1,9 @@
+<!-- SUPERSEDED FOR CROSS-PAIR ORDERING. This figure's panel b asserts a severity-ordered
+     separation, Control-Severe as largest, and agreement between MMD and energy distance.
+     All three are WITHDRAWN. The accessible <desc> text below also carries the claim and is
+     announced by screen readers. Not deleted and not rebuilt: preserved for traceability
+     pending an independent metric audit.
+     See NOTICE_SCIENTIFIC_SUPERSESSION_2026-07-19.md -->
 <svg viewBox="0 0 1000 560" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" role="img" aria-labelledby="t d">
   <title id="t">A separable metabolic state across COVID-19 severity</title>
   <desc id="d">Human neutrophil metabolome (Li_ST002477). Left: Control, Mild and Severe occupy distinguishable metabolic states (point positions illustrative; the separation is the measured result). Right: maximum mean discrepancy and energy distance are permutation-significant (p approximately 0.001) for all three comparisons and severity-ordered, largest between Control and Severe.</desc>
