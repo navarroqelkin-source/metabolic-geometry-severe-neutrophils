@@ -1,11 +1,11 @@
-analysis_arm	analysis_scope	current_status	note
-raw75	cross_pair_ordering	SUPERSEDED_NOT_EVALUABLE	pair-specific MMD bandwidth; energy V-statistic
-raw75	dominant_contrast	SUPERSEDED_NOT_EVALUABLE	cross-pair magnitude comparison not licensed
-raw75	metric_agreement_on_order	SUPERSEDED_NOT_EVALUABLE	agreement on an unlicensed ordering is not a quantity
-raw75	pairwise_discrepancy	AUDIT_PENDING_UNADJUSTED_ASSOCIATION	no covariate adjustment; age/sex/collection-time/treatment uncontrolled
-raw75	outlier_robustness	ONE_MAX_NORM_SAMPLE_REMOVED_PER_GROUP	NOT exhaustive leave-one-out; see LOO_CLAIM_CORRECTION
-adjusted74	cross_pair_ordering	SUPERSEDED_NOT_EVALUABLE	same two estimator defects
-adjusted74	pairwise_discrepancy	DESCRIPTIVE_AUDIT_PENDING	source-adjusted product, not independent adjustment
-adjusted74	label_permutations	NON_EXACT_LABEL_INFORMED_DIAGNOSTIC	source model contained COVID status and status-by-covariate interactions
-adjusted74	exhaustive_loo_74	EXECUTED_BUT_ON_A_DIFFERENT_ANALYSIS	does not retroactively validate the raw75 robustness claim
-both	metric_repair	HOLD	energy U and global-kernel MMD not authorised until the independent audit closes
+analysis_scope	current_status	legacy_status	legacy_validity	evidence_boundary
+raw75_cross_pair_ordering	SUPERSEDED_NOT_EVALUABLE	ordering_ok=TRUE	SUPERSEDED	metric comparability under independent audit
+raw75_dominant_contrast	SUPERSEDED_NOT_EVALUABLE	KERNEL_STATE_SEPARATION_SUPPORTED	SUPERSEDED	no active dominant-contrast claim
+raw75_metric_agreement_on_order	SUPERSEDED_NOT_EVALUABLE	supported=3/3	SUPERSEDED	within-pair outputs do not license ordering agreement
+raw75_pairwise_discrepancy	AUDIT_PENDING_UNADJUSTED_ASSOCIATION	pairwise_supported	UNDER_AUDIT	unadjusted observational groups
+raw75_outlier_test	ONE_MAX_NORM_PER_GROUP_ONLY	outlier_LOO=stable_3/3	SUPERSEDED_LABEL	one simultaneous max-norm removal per group; not exhaustive LOO
+adjusted74_cross_pair_ordering	SUPERSEDED_NOT_EVALUABLE	GO_REDUCED_CONTROL_SEVERE_DISTANCE	SUPERSEDED	separate source-adjusted arm
+adjusted74_pairwise_discrepancy	DESCRIPTIVE_AUDIT_PENDING	pairwise_discrepancy_present	UNDER_AUDIT	label-informed source product
+adjusted74_label_permutations	NON_EXACT_LABEL_INFORMED_DIAGNOSTIC	permutation_p_values	QUALIFIED	fixed adjusted matrix is not an independent covariate adjustment
+metric_repair	HOLD	none	NOT_AUTHORIZED	post-hoc protocol required after independent audit
+

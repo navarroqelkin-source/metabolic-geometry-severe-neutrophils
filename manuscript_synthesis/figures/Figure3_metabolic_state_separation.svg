@@ -90,4 +90,5 @@
   <line x1="70" y1="506" x2="930" y2="506" stroke="#e5e7eb" stroke-width="1"/>
   <text x="500" y="527" text-anchor="middle" font-size="11" fill="#6b7280">Bar lengths summarize the observed ordering of MMD and energy-distance results; they are not a new metric. Permutation-based p≈0.001 for all pairwise comparisons.</text>
   <text x="500" y="546" text-anchor="middle" font-size="10.5" fill="#94a3b8">Figure 3 · measured result = the distributional separation · no flux, no causal claim, no clinical prediction</text>
+<g id="supersession-banner"><rect x="0.0" y="0.0" width="1000.0" height="42.0" fill="#cc1a1a"/><text x="500.0" y="17.64" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="14.3" font-weight="700" fill="#ffffff">SUPERSEDED - DO NOT USE FOR CROSS-PAIR ORDERING</text><text x="500.0" y="32.76" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="9.2" fill="#ffe8e8">Independent metric audit pending - see NOTICE_SCIENTIFIC_SUPERSESSION_2026-07-19.md</text></g>
 </svg>

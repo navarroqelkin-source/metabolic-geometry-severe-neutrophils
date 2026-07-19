@@ -1,0 +1,4 @@
+# MIRROR - NOT THE SOURCE OF TRUTH.
+# Canonical file: CURRENT_SCIENTIFIC_STATUS_V1.tsv at the project root of the working
+# repository. This copy exists so the public tree carries the active state; if the two ever
+# differ, the canonical file governs. Schema and content are reproduced verbatim.
