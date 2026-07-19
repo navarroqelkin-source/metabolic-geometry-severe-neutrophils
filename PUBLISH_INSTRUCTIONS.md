@@ -1,3 +1,7 @@
+> **⚠️ HOLD — DO NOT PUBLISH A NEW VERSION.** A scientific supersession notice is active
+> (2026-07-19). No new release, Zenodo version, or preprint may be issued until the independent
+> metric audit closes. See NOTICE_SCIENTIFIC_SUPERSESSION_2026-07-19.md.
+
 # How to publish this repository (GitHub + Zenodo) — RUN BY THE PI
 
 This folder is a ready-to-upload public-repository package. **Nothing has been published.** Two blockers

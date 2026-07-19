@@ -23,8 +23,9 @@ WHY:
      about the data.
 
 STILL VALID:
-  Within-pair distributional discrepancy; within-pair permutation significance, labelled
-  conditional/diagnostic only; leave-one-out stability of an individual contrast.
+  Within-pair discrepancy statistics and fixed-product label-permutation diagnostics remain
+  available; the diagnostic values do NOT constitute independent covariate-adjusted significance
+  tests. Leave-one-out stability of an individual contrast is unaffected.
 
 IF YOU RECEIVED THIS ARCHIVE:
   Please do not cite or circulate the ordering or Control-Severe-dominance statements.

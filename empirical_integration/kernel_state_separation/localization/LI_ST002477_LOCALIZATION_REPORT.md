@@ -1,3 +1,8 @@
+> **SUPERSEDED FOR CROSS-PAIR ORDERING.** Do not use this document to compare the relative
+> magnitudes of the three clinical contrasts, or to support Control-Severe dominance or
+> two-metric agreement. Within-pair statements are unaffected, subject to the limitations in the
+> root notice. See [NOTICE_SCIENTIFIC_SUPERSESSION_2026-07-19.md](../../../NOTICE_SCIENTIFIC_SUPERSESSION_2026-07-19.md).
+
 # Li ST002477 — Localization Report
 
 This localization analysis identifies candidate contributors to distributional separation. It does

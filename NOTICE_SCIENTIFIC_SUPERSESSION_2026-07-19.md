@@ -1,8 +1,11 @@
 # SCIENTIFIC SUPERSESSION NOTICE — 2026-07-19
 
-**A central claim in the material published in this repository has been withdrawn by the
-authors.** This notice is issued in the same place the claim was published. Nothing is being
-deleted: the affected files and the commit history are preserved so the correction is traceable.
+**A central claim in material published in this repository has been withdrawn from use by the
+repository maintainer following a post-results methodological audit.** Coauthor review of the
+corrected manuscript remains pending; this notice is issued by the maintainer and does not record
+a collective authorship decision.
+
+The correction is issued in the same place the claim was published. Nothing is being deleted: the affected files and the commit history are preserved so the correction is traceable.
 
 ## 1. What is withdrawn
 
@@ -73,7 +76,9 @@ Permitted formulation:
 
 - **Do not cite or reuse** the ordering, the Control–Severe dominance statement, or the
   two-metric agreement statement.
-- Statements about a *single* pairwise contrast are unaffected.
+- Within-pair discrepancy statistics remain available **under the limitations in section 3**.
+  They are not a licence to compare magnitudes across pairs, and the permutation diagnostics are
+  not independent covariate-adjusted significance tests.
 - The Zenodo deposit `10.5281/zenodo.20717146` archives the same material and carries the same
   withdrawn claim. A supersession note is being added there; the deposit is **not** being
   deleted.
@@ -96,7 +101,9 @@ preregistration.
 
 ## 6. Provenance of this correction
 
-The defects were found by internal post-results audit and confirmed under independent review.
+The defects were identified by internal post-results audit and independently reviewed at the
+level of methodological characterization. A fully independent numerical reproduction remains in
+progress.
 The full technical record, including the withdrawn intermediate positions and the corrections
 applied to those, is maintained in the working repository and will accompany the corrected
 package.

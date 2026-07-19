@@ -1,3 +1,6 @@
+# SUPERSEDED FOR CROSS-PAIR ORDERING: the "severity-ordered separation (kernel SUPPORTED)"
+# string emitted by this script is withdrawn. Cross-pair magnitude comparison is not licensed.
+# See NOTICE_SCIENTIFIC_SUPERSESSION_2026-07-19.md at the repository root.
 """02 — Summarize the Li_ST002477 metabolic-state axis for the Chapman bridge.
 
 Reads the localization feature-contribution + module-level summary + module mapping and condenses

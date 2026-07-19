@@ -1,6 +1,8 @@
 > # ⚠️ SCIENTIFIC SUPERSESSION NOTICE — 2026-07-19
 >
-> **A central claim in this repository has been withdrawn by the authors.** The
+> **A central claim in material published in this repository has been withdrawn from use by
+> the repository maintainer following a post-results methodological audit.** Coauthor review of
+> the corrected manuscript remains pending. The
 > severity-ordering claim (Control-Severe > Control-Mild > Mild-Severe), the statement that
 > Control-Severe is the largest/dominant contrast, and the statement that the two metrics agree
 > on that ordering are **not supported** and must not be cited or reused.
@@ -10,7 +12,9 @@
 > does not cancel in an ordering and whose direction is indeterminate before the within-group
 > dispersions are computed.
 >
-> Statements about a **single** pairwise contrast are unaffected. Nothing has been deleted;
+> Within-pair discrepancy statistics remain available **under the limitations stated in the full
+> notice**; fixed-product label permutations are diagnostic only and do not constitute independent
+> covariate-adjusted significance tests. Nothing has been deleted;
 > history is preserved. Full detail: **[NOTICE_SCIENTIFIC_SUPERSESSION_2026-07-19.md](NOTICE_SCIENTIFIC_SUPERSESSION_2026-07-19.md)**
 >
 > An independent metric audit is underway. A corrected package will follow.

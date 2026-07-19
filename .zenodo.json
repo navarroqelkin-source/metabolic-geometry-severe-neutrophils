@@ -1,7 +1,7 @@
 {
   "title": "The metabolic geometry of severe human neutrophils: redox-carbon state separation and the limits of inferring effector function - analysis code and derived data",
   "upload_type": "software",
-  "description": "Reproducible code, derived data and figures for the Hypothesis and Theory manuscript on the severity-associated metabolic state of human neutrophils and the identifiability limits of NET-burden readouts. Public datasets only; derived outputs only. No biological-parameter, flux, NETosis, enzyme-activity, executed-function or clinical claim.",
+  "description": "SCIENTIFIC SUPERSESSION NOTICE (2026-07-19): cross-pair ordering and Control-Severe dominance claims withdrawn pending independent metric audit. Repository history preserved. See NOTICE_SCIENTIFIC_SUPERSESSION_2026-07-19.md. Reproducible code, derived data and figures for the Hypothesis and Theory manuscript on the severity-associated metabolic state of human neutrophils and the identifiability limits of NET-burden readouts. Public datasets only; derived outputs only. No biological-parameter, flux, NETosis, enzyme-activity, executed-function or clinical claim.",
   "license": "cc-by-4.0",
   "access_right": "open",
   "version": "v0.8.2",
@@ -40,5 +40,6 @@
       "identifier": "10.1038/s41586-025-09807-0",
       "scheme": "doi"
     }
-  ]
+  ],
+  "notes": "Status: scientifically superseded in part. Public correction date: 2026-07-19. Independent metric audit: pending. Original files preserved for traceability."
 }

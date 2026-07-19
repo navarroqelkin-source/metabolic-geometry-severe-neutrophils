@@ -1,3 +1,7 @@
+# SUPERSEDED FOR CROSS-PAIR ORDERING - do not use this file to rank the three clinical
+# contrasts against each other, or to support Control-Severe dominance. Any value of
+# 'kernel SUPPORTED' for a severity-ordered separation is withdrawn. See the root notice:
+# NOTICE_SCIENTIFIC_SUPERSESSION_2026-07-19.md
 figure	svg_source	pdf_export	png_600dpi_export	status	notes
 Figure 1	figures/Figure1_evidence_map_and_navigation.svg	final_exports/pdf/Figure1_evidence_map_and_navigation.pdf	final_exports/png_600dpi/Figure1_evidence_map_and_navigation.png	OK_BROWSER_RENDER_CHROME	Rendered via headless Chrome 149 (vector PDF) + MuPDF 600 dpi PNG (6500x5300). Title, observation-framework band, F2 badge, rows, legend and footer all clean; white background.
 Figure 2	figures/Figure2_NET_burden_identifiability.svg	final_exports/pdf/Figure2_NET_burden_identifiability.pdf	final_exports/png_600dpi/Figure2_NET_burden_identifiability.png	OK_BROWSER_RENDER_CHROME	Chrome render; PNG 6250x4000. Middle-anchored inline-tspan lines L42 ("observationally equivalent") and L67 ("second, stacked") verified flowing inline, NO overprint.
