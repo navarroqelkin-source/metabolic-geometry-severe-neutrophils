@@ -120,7 +120,8 @@ Permitted formulation:
 ## 5. Status
 
 ```
-INDEPENDENT_METRIC_AUDIT    commissioned, read-only, outcome not prejudged
+INDEPENDENT_METRIC_AUDIT    Stage A package built and released; read-only; blinded;
+                            outcome not prejudged. No longer held on containment closure.
 MANUSCRIPT_REPAIR           HOLD
 FIGURE_REPAIR               HOLD
 PUBLIC_REPLACEMENT          HOLD
